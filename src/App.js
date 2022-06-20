@@ -2,7 +2,7 @@ import "./style/general.css";
 
 const App = () => {
   return (
-    <p>hey</p>
+    <h1>hey0BRW</h1>
   )
 }
 
