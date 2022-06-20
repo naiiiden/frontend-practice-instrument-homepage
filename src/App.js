@@ -1,9 +1,11 @@
 import "./style/general.css";
-import arrow from "./images/arrow.svg";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <img src={arrow}/>
+    <div>
+      <Header/>
+    </div>
   )
 }
 
