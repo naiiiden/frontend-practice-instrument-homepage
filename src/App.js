@@ -1,8 +1,9 @@
 import "./style/general.css";
+import arrow from "./images/arrow.svg";
 
 const App = () => {
   return (
-    <h1>0 Build Grow Serve</h1>
+    <img src={arrow}/>
   )
 }
 
