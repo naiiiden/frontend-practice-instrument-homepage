@@ -82,9 +82,19 @@ header nav ul.show {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 20px;
   position: absolute;
-  top: 0;
+  top: 5rem;
   bottom: 0;
   height: 100vh;
+}
+
+header nav ul a {
+  font-family: monument-grotesk-mono;
+  font-size: .875rem;
+  letter-spacing: .8px;
+  line-height: 1.71;
+  color: #fff;
+  text-decoration: none;
 }
 /*# sourceMappingURL=general.css.map */

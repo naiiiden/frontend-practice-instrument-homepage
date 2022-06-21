@@ -16,7 +16,7 @@ header {
 
     nav {
         width: 100%;
-        
+
         ul {
             display: none;
 
@@ -25,10 +25,20 @@ header {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                gap: 20px;
                 position: absolute;
-                top: 0;
+                top: 5rem;
                 bottom: 0;
                 height: 100vh;
+            }
+
+            a {
+                font-family: monument-grotesk-mono;
+                font-size: .875rem;
+                letter-spacing: .8px;
+                line-height: 1.71;
+                color: $white;
+                text-decoration: none;
             }
         }
     }
