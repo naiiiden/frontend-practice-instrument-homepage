@@ -81,3 +81,46 @@ header {
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    header {
+        nav {
+            ul {
+                a {
+                    position: relative;
+
+                    &::before, &::after {
+                        display: flex;
+                        opacity: 0;
+                        pointer-events: none;
+                        position: absolute;
+                        top: calc(50% - 1px);
+                        transform: translateY(-50%);
+                        transition: opacity .3s ease-in-out;
+                    }
+
+                    &::before {
+                        content: "[";
+                        left: -20px;
+                    }
+
+                    &::after {
+                        content: "]";
+                        right: -20px;
+                    }
+
+                    &:hover {
+                        &::before {
+                            opacity: .5;
+
+                        }
+
+                        &::after {
+                            opacity: .5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

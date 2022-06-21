@@ -145,4 +145,37 @@ header nav ul a {
     display: none;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  header nav ul a {
+    position: relative;
+  }
+  header nav ul a::before, header nav ul a::after {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: calc(50% - 1px);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+  }
+  header nav ul a::before {
+    content: "[";
+    left: -20px;
+  }
+  header nav ul a::after {
+    content: "]";
+    right: -20px;
+  }
+  header nav ul a:hover::before {
+    opacity: .5;
+  }
+  header nav ul a:hover::after {
+    opacity: .5;
+  }
+}
 /*# sourceMappingURL=general.css.map */
