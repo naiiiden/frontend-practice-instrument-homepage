@@ -48,10 +48,18 @@ header {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 header button {
+  width: 20px;
+  height: 15px;
   z-index: 100;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
 }
 
 header nav {
@@ -63,8 +71,20 @@ header nav ul {
 }
 
 header nav ul.show {
+  list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
 }
 /*# sourceMappingURL=general.css.map */

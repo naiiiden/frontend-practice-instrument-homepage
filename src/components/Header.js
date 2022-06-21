@@ -15,9 +15,11 @@ const Header = () => {
             <nav>
                 <ul className={`${openMenu ? "show" : null}`}>
                     <li><a href="">WHAT WE DO</a></li>
+                    <li className="mobile--only"><a href="">WORK</a></li>
                     <li><a href="">WHO WE ARE</a></li>
                     <li><a href="">BEING HERE</a></li>
                     <li><a href="">CAREERS</a></li>
+                    <li className="mobile--only"><a href="">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
