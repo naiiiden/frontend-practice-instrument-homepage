@@ -6,8 +6,19 @@ import { useState } from "react";
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
+    {var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.querySelector(".header").style.top = "0";
+        } else {
+            document.querySelector(".header").style.top = "-100px";
+        }
+        prevScrollpos = currentScrollPos;
+    }}
+
     return (
-        <header>
+        <header className="header">
             <img src={Logo} alt="Instrument's logo"/>
             <button style={{border: "none", background: "none"}} onClick={() => setOpenMenu(!openMenu)}>
                 <img src={!openMenu ? Menu : Close} alt=""/>
