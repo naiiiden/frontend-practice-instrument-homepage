@@ -10,7 +10,7 @@ const Header = () => {
         <header>
             <img src={Logo} alt="Instrument's logo"/>
             <button style={{border: "none", background: "none"}} onClick={() => setOpenMenu(!openMenu)}>
-                <img src={Menu} alt=""/>
+                <img src={!openMenu ? Menu : Close} alt=""/>
             </button>
             <nav>
                 <ul className={`${openMenu ? "show" : null}`}>
