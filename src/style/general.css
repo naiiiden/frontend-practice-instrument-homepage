@@ -70,11 +70,11 @@ header nav {
 }
 
 header nav ul {
+  list-style-type: none;
   display: none;
 }
 
 header nav ul.show {
-  list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,5 +121,28 @@ header nav ul a {
   line-height: 1.71;
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 2.5rem 4vw;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  header button {
+    display: none;
+  }
+  header nav ul {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+  }
+  header nav ul .mobile--only {
+    display: none;
+  }
 }
 /*# sourceMappingURL=general.css.map */
