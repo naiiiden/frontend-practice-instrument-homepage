@@ -192,7 +192,7 @@ main {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  gap: 40px;
+  gap: calc(40px + 40*(100vw - 320px)/ 2180);
 }
 
 main h1 {
@@ -270,5 +270,17 @@ main a {
   text-decoration: none;
   line-height: 1.71;
   letter-spacing: .8px;
+}
+
+@media screen and (min-width: 500px) {
+  main {
+    padding: 2.125rem 4vw;
+  }
+  main h1 span {
+    font-size: clamp(48px, 8vw, 132px);
+  }
+  main p {
+    max-width: 500px;
+  }
 }
 /*# sourceMappingURL=general.css.map */
