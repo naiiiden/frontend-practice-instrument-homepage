@@ -29,7 +29,14 @@ main {
                     bottom: 0;
                     left: 0;
                     display: block;
-                    transform: translate3d(-5%,-80%,0);
+                    transform: translate3d(-5%,-80%,15%);
+                }
+
+                &.grow--svg {
+                    bottom: 0;
+                    left: 0;
+                    display: block;
+                    transform: translate3d(-8%,25%,0);
                 }
 
                 &.serve--svg {
@@ -37,7 +44,7 @@ main {
                     bottom: 0;
                     left: 0;
                     display: block;
-                    transform: translate3d(-5%,-35%,0);
+                    transform: translate3d(-5%,-35%,15%);
                 }
             }
         }
