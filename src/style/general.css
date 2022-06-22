@@ -192,7 +192,6 @@ main {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  gap: calc(40px + 40*(100vw - 320px)/ 2180);
 }
 
 main h1 {
@@ -248,11 +247,13 @@ main h1 span img.serve--svg {
 }
 
 main p {
+  padding-top: calc(40px + 40*(100vw - 320px)/ 2180);
   max-width: 1080px;
   font-size: calc(19px + 13*(100vw - 320px)/ 2180);
 }
 
 main a {
+  margin-top: 40px;
   height: 44px;
   padding: 0 24px;
   border-radius: 22px;
@@ -281,6 +282,13 @@ main a {
   }
   main p {
     max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main p {
+    max-width: unset;
+    padding-right: 32vw;
   }
 }
 /*# sourceMappingURL=general.css.map */
