@@ -9,15 +9,15 @@ const Hero = () => {
             <h1>
                 <span>
                     Build.
-                    <img src={Build} alt=""/>
+                    <img src={Build} alt="" className="build--svg"/>
                 </span>
                 <span>
                     Grow.
-                    <img src={Grow} alt=""/>
+                    <img src={Grow} alt="" className="grow--svg"/>
                 </span>
                 <span>
                     Serve.
-                    <img src={Serve} alt=""/>
+                    <img src={Serve} alt="" className="serve--svg"/>
                 </span>
             </h1>
             <p>We are investing $3 million over the next three years in our Build|Grow|Serve program, created to support and empower Black and underrepresented communities.</p>
