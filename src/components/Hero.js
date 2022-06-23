@@ -11,7 +11,7 @@ const Hero = () => {
 
     return (
         <main>
-            <h1>
+            <h1 className="wow animate__animated animate__fadeIn">
                 <span>
                     Build.
                     <img src={Build} alt="" className="build--svg"/>
@@ -25,8 +25,8 @@ const Hero = () => {
                     <img src={Serve} alt="" className="serve--svg"/>
                 </span>
             </h1>
-            <p>We are investing $3 million over the next three years in our Build|Grow|Serve program, created to support and empower Black and underrepresented communities.</p>
-            <a href="#">Learn more <img src={Arrow} alt=""/></a>
+            <p className="wow animate__animated animate__fadeIn">We are investing $3 million over the next three years in our Build|Grow|Serve program, created to support and empower Black and underrepresented communities.</p>
+            <a className="wow animate__animated animate__fadeIn" href="#">Learn more <img src={Arrow} alt=""/></a>
             <div className="video--player wow animate__animated animate__fadeIn" data-wow-offset="400">
                 <iframe src="https://player.vimeo.com/video/428281636?h=be0963aaa9?autoplay=1&muted=1" frameBorder={0} allow="autoplay; fullscreen;"></iframe>
             </div>
