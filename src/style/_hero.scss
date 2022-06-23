@@ -7,11 +7,12 @@ main {
 
     h1 {
         display: flex;
-
+        
         span {
             display: flex;
             flex-direction: column;
             position: relative;
+            z-index: -1;
             width: fit-content;
             font-size: 9.5vw;
             font-family: whyte-medium;
@@ -74,6 +75,7 @@ main {
     }
 
     .video--player {
+        z-index: 0;
         margin: calc(55px + 65*(100vw - 320px)/ 2180) auto 0 auto;
         width: 100%;
         max-width: calc(1920 / 1080 * 100vh);
