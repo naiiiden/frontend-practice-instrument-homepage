@@ -72,6 +72,22 @@ main {
         line-height: 1.71;
         letter-spacing: .8px;
     }
+
+    .video--player {
+        margin: calc(55px + 65*(100vw - 320px)/ 2180) auto 0 auto;
+        width: 100%;
+        max-width: calc(1920 / 1080 * 100vh);
+        height: calc(1080 / 1920 * 100vw);
+        position: relative;
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
 }
 
 @media screen and (min-width: 500px) {
