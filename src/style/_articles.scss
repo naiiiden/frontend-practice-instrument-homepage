@@ -67,3 +67,27 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .articles--section {
+        .article--container {
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .dec--img {
+                width: 50%;
+            }
+
+            .article--text--container {
+                padding: 0 6vw;
+                width: 45%;
+            }
+
+            &.reverse {
+                flex-direction: row-reverse;
+            }
+        }
+    }
+}
