@@ -512,6 +512,8 @@ main .video--player iframe {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: calc(80px + 120*(100vw - 320px)/ 2180);
+  color: #fff;
+  text-decoration: none;
 }
 
 .projects--section .projects--works--container .projects--work h3 {
@@ -580,6 +582,34 @@ main .video--player iframe {
   }
   .projects--section .projects--works--container a .text--container p {
     width: 72.5%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects--section .projects--heading--work--container {
+    max-width: 750px;
+  }
+  .projects--section .projects--heading--work--container a {
+    margin-bottom: 0;
+    padding: 0 32px;
+    height: 54px;
+    border-radius: 27px;
+  }
+  .projects--section .projects--works--container {
+    padding-top: calc(120*(100vw - 320px)/ 2180);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 4vw;
+  }
+  .projects--section .projects--works--container a .text--container {
+    display: unset;
+  }
+  .projects--section .projects--works--container a .text--container h3 {
+    padding-right: unset;
+  }
+  .projects--section .projects--works--container a .text--container p {
+    width: unset;
   }
 }
 /*# sourceMappingURL=general.css.map */
