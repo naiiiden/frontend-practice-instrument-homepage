@@ -443,5 +443,14 @@ main .video--player iframe {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
+  .articles--section .article--container a {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  .articles--section .article--container a:hover {
+    opacity: .6;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
 }
 /*# sourceMappingURL=general.css.map */

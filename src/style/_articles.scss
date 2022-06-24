@@ -88,6 +88,15 @@
             &.reverse {
                 flex-direction: row-reverse;
             }
+
+            a {
+                transition: .2s;
+    
+                &:hover {
+                    opacity: .6;
+                    transition: .2s;
+                }
+            }
         }
     }
 }
