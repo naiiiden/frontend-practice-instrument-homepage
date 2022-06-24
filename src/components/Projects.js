@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="projects--works--container">
                 <a className="projects--work">
                     <img src={dec1} alt=""/>
-                    <h3 className="work--heading">Eames Institue</h3>
+                    <h3 className="work--heading">Eames Institute</h3>
                     <p>Ray and Charles Eames laid the foundation for modern design and created work that has transcended time. With an aspiration to bring the Eameses’ timeless methodologies to a modern audience, the Eames Institute enlisted Instrument to co-create a digital platform to unveil their vast collection to the world.</p>
                 </a>
                 <a className="projects--work">

@@ -461,4 +461,74 @@ main .video--player iframe {
     transition: .2s;
   }
 }
+
+.projects--section {
+  margin-top: calc(55px + 65*(100vw - 320px)/ 2180);
+  padding: 1.75rem 8vw;
+}
+
+.projects--section .projects--heading--work--container .projects--heading {
+  margin-top: 20px;
+  font-family: whyte-book;
+  font-weight: 400;
+  font-size: calc(28px + 44*(100vw - 320px)/2180);
+  letter-spacing: -.04rem;
+  word-spacing: 0.02rem;
+  line-height: 1.17;
+}
+
+.projects--section .projects--heading--work--container a {
+  margin: 24px 0;
+  border-radius: 22px;
+  height: 44px;
+  padding: 0 24px;
+  background: #fff;
+  font-family: monument-grotesk-semi-mono;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.projects--section .projects--works--container {
+  padding-top: calc(40px + 120*(100vw - 320px)/ 2180);
+}
+
+.projects--section .projects--works--container .projects--work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: calc(80px + 120*(100vw - 320px)/ 2180);
+}
+
+.projects--section .projects--works--container .projects--work h3 {
+  margin: 20px 0;
+  font-size: calc(19px + 13*(100vw - 320px)/ 2180);
+  font-family: whyte-medium;
+  font-weight: 400;
+  letter-spacing: .1px;
+  line-height: 1.5;
+  word-spacing: 0.4px;
+}
+
+.projects--section .projects--works--container .projects--work p {
+  font-family: monument-grotesk-semi-mono;
+  font-size: 14px;
+  letter-spacing: .8px;
+  line-height: 1.71;
+  max-width: 500px;
+}
 /*# sourceMappingURL=general.css.map */
