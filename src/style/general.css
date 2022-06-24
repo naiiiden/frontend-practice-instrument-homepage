@@ -594,6 +594,13 @@ main .video--player iframe {
     padding: 0 32px;
     height: 54px;
     border-radius: 27px;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  .projects--section .projects--heading--work--container a:hover {
+    opacity: .6;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   .projects--section .projects--works--container {
     padding-top: calc(120*(100vw - 320px)/ 2180);

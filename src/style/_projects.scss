@@ -122,6 +122,13 @@
                 padding: 0 32px;
                 height: 54px;
                 border-radius: 27px;
+                transition: .2s;
+
+                &:hover {
+                    opacity: .6;
+                    transition: .2s;
+                }
+            
             }
         }
 
