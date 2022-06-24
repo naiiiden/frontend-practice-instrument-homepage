@@ -70,11 +70,20 @@
 
 @media screen and (min-width: 1024px) {
     .articles--section {
+        margin-top: calc(100px + 120*(100vw - 320px)/ 2180);
+
+        .articles--heading {
+            max-width: 1150px;
+            margin: 0 auto 40px auto;
+        }
+
         .article--container {
+            padding-top: calc(160px + 120*(100vw - 320px)/ 2180);
             width: 100%;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+
 
             .dec--img {
                 width: 50%;
