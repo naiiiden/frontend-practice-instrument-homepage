@@ -398,4 +398,21 @@ main .video--player iframe {
 .articles--section .article--container a img {
   margin: unset;
 }
+
+@media screen and (min-width: 500px) {
+  .articles--section {
+    margin-top: calc(125px + 120*(100vw - 320px)/ 2180);
+    padding: 2.125rem 4vw;
+  }
+  .articles--section .articles--heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .articles--section .article--container {
+    padding-top: calc(100px + 120*(100vw - 320px)/ 2180);
+  }
+  .articles--section .article--text--container {
+    padding: 0 12vw;
+  }
+}
 /*# sourceMappingURL=general.css.map */
