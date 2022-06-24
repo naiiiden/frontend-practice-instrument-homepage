@@ -58,3 +58,26 @@
         }
     }
 }
+
+@media screen and (min-width: 500px) {
+    .projects--section {
+        margin-top: calc(85px + 65*(100vw - 320px)/ 2180);
+        padding: 2.125rem 4vw;
+
+        .projects--heading--work--container {
+            max-width: 845px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            a {
+                margin-top: 40px;
+            }
+        }
+
+        .projects--works--container {
+            padding-top: calc(100px + 120*(100vw - 320px)/ 2180);
+        }
+    }
+}
