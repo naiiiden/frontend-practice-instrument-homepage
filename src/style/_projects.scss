@@ -81,3 +81,31 @@
         }
     }
 }
+
+
+@media screen and (min-width: 768px) {
+    .projects--section {
+        .projects--heading--work--container {
+            margin: auto;
+            max-width: 525px;
+        }
+
+        .projects--works--container {
+            a {
+                .text--container {
+                    display: flex;
+                    align-items: baseline;
+                    justify-content: space-between;
+
+                    h3 {
+                        padding-right: 8vw;
+                    }
+
+                    p {
+                        width: 72.5%;
+                    }
+                }
+            }
+        }
+    }
+}
