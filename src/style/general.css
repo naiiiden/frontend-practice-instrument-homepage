@@ -625,4 +625,15 @@ main .video--player iframe {
     width: unset;
   }
 }
+
+.partners--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: calc(100px + 120*(100vw - 320px)/ 2180);
+  padding-right: 1rem;
+}
 /*# sourceMappingURL=general.css.map */

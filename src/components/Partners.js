@@ -29,9 +29,9 @@ import youtube from "../images/youtube.png";
 
 const Partners = () => {
     return (
-        <div>
+        <div className="partners--container">
             <div className="row row1">
-                <img src={airbnb} alt="" class="img"/>
+                <img src={airbnb} alt="" className="img"/>
                 {/* <img src={better} alt="" class="img"/>
                 <img src={dropbox} alt="" class="img"/>
                 <img src={dwell} alt="" class="img"/>
@@ -43,7 +43,7 @@ const Partners = () => {
                 <img src={levi} alt="" class="img"/> */}
             </div>
             <div className="row row2">
-                <img src={linkedin} alt="" class="img"/>
+                <img src={linkedin} alt="" className="img"/>
                 {/* <img src={mercy_corps} alt="" class="img"/>
                 <img src={netflix} alt="" class="img"/>
                 <img src={new_knowledge} alt="" class="img"/>
@@ -54,7 +54,7 @@ const Partners = () => {
                 <img src={samsung} alt="" class="img"/> */}
             </div>
             <div className="row row3">
-                <img src={sonos} alt="" class="img"/>
+                <img src={sonos} alt="" className="img"/>
                 {/* <img src={specialized} alt="" class="img"/>
                 <img src={spotify} alt="" class="img"/>
                 <img src={stumptown} alt="" class="img"/>
