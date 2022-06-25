@@ -651,11 +651,6 @@ main .video--player iframe {
           animation: display 17.5s infinite;
 }
 
-.partners--container .row img.imgrow1 {
-  -webkit-animation: display 20s infinite;
-          animation: display 20s infinite;
-}
-
 .partners--container .row img.img11 {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
@@ -694,16 +689,6 @@ main .video--player iframe {
 .partners--container .row img.img18 {
   -webkit-animation-delay: 16s;
           animation-delay: 16s;
-}
-
-.partners--container .row img.img19 {
-  -webkit-animation-delay: 18s;
-          animation-delay: 18s;
-}
-
-.partners--container .row img.img20 {
-  -webkit-animation-delay: 20s;
-          animation-delay: 20s;
 }
 
 .partners--container .row img.img21 {
@@ -797,9 +782,6 @@ main .video--player iframe {
             transform: translateY(0);
     opacity: 1;
   }
-  17.5% {
-    opacity: 0;
-  }
   20% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -823,9 +805,6 @@ main .video--player iframe {
     -webkit-transform: translateY(0);
             transform: translateY(0);
     opacity: 1;
-  }
-  17.5% {
-    opacity: 0;
   }
   20% {
     -webkit-transform: translateY(0);

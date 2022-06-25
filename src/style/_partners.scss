@@ -15,10 +15,6 @@
             opacity: 0;
             animation: display 17.5s infinite;
 
-            &.imgrow1 {
-                animation: display 20s infinite;
-            }
-
             &.img11 {
                 animation-delay: 2s;
             }
@@ -49,14 +45,6 @@
 
             &.img18 {
                 animation-delay: 16s;
-            }
-
-            &.img19 {
-                animation-delay: 18s;
-            }
-
-            &.img20 {
-                animation-delay: 20s;
             }
 
             &.img21 {
@@ -134,10 +122,6 @@
     10% {
       transform: translateY(0);
       opacity: 1;
-    }
-
-    17.5% {
-        opacity: 0;
     }
 
     20% {
