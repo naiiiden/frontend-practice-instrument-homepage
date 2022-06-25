@@ -137,7 +137,13 @@
       opacity: 1;
     }
 
+    // 15% {
+    //     transform: translateY(-40px);
+    //     opacity: 0;
+    // }
+
     17.5% {
+        transform: translateY(-40px);
         opacity: 0;
     }
 
