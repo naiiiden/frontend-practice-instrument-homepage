@@ -31,16 +31,16 @@ const Partners = () => {
     return (
         <div className="partners--container">
             <div className="row row1">
-                <img src={airbnb} alt="" className="img img11"/>
-                <img src={better} alt="" className="img img12"/>
-                <img src={dropbox} alt="" className="img img13"/>
-                <img src={dwell} alt="" className="img img14"/>
-                <img src={ebay} alt="" className="img img15"/>
-                <img src={facebook} alt="" className="img img16"/>
-                <img src={google} alt="" className="img img17"/>
-                <img src={gopro} alt="" className="img img18"/>
-                <img src={intercom} alt="" className="img img19"/>
-                <img src={levi} alt="" className="img img20"/>
+                <img src={airbnb} alt="" className="img img11 imgrow1"/>
+                <img src={better} alt="" className="img img12 imgrow1"/>
+                <img src={dropbox} alt="" className="img img13 imgrow1"/>
+                <img src={dwell} alt="" className="img img14 imgrow1"/>
+                <img src={ebay} alt="" className="img img15 imgrow1"/>
+                <img src={facebook} alt="" className="img img16 imgrow1"/>
+                <img src={google} alt="" className="img img17 imgrow1"/>
+                <img src={gopro} alt="" className="img img18 imgrow1"/>
+                <img src={intercom} alt="" className="img img19 imgrow1"/>
+                <img src={levi} alt="" className="img img20 imgrow1"/>
             </div>
             <div className="row row2">
                 <img src={linkedin} alt="" className="img"/>
@@ -59,7 +59,7 @@ const Partners = () => {
                 <img src={spotify} alt="" className="img img32"/>
                 <img src={stumptown} alt="" className="img img33"/>
                 <img src={tumblr} alt="" className="img img34"/>
-                <img src={umpqua} alt="" className="img img 35"/>
+                <img src={umpqua} alt="" className="img img35"/>
                 <img src={xbox} alt="" className="img img36"/>
                 <img src={yeti} alt="" className="img img37"/>
                 <img src={youtube} alt="" className="img img38"/>

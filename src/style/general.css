@@ -646,6 +646,198 @@ main .video--player iframe {
 .partners--container .row img {
   position: absolute;
   top: 0;
+  opacity: 0;
+  -webkit-animation: display 17.5s infinite;
+          animation: display 17.5s infinite;
+}
+
+.partners--container .row img.imgrow1 {
+  -webkit-animation: display 20s infinite;
+          animation: display 20s infinite;
+}
+
+.partners--container .row img.img11 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.partners--container .row img.img12 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.partners--container .row img.img13 {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.partners--container .row img.img14 {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.partners--container .row img.img15 {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.partners--container .row img.img16 {
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.partners--container .row img.img17 {
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+}
+
+.partners--container .row img.img18 {
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+.partners--container .row img.img19 {
+  -webkit-animation-delay: 18s;
+          animation-delay: 18s;
+}
+
+.partners--container .row img.img20 {
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+}
+
+.partners--container .row img.img21 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.partners--container .row img.img22 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.partners--container .row img.img23 {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.partners--container .row img.img24 {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.partners--container .row img.img25 {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.partners--container .row img.img26 {
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.partners--container .row img.img27 {
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+}
+
+.partners--container .row img.img28 {
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+.partners--container .row img.img31 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.partners--container .row img.img32 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.partners--container .row img.img33 {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.partners--container .row img.img34 {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.partners--container .row img.img35 {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.partners--container .row img.img36 {
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.partners--container .row img.img37 {
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+}
+
+.partners--container .row img.img38 {
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+@-webkit-keyframes display {
+  0% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+  10% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  17.5% {
+    opacity: 0;
+  }
+  20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes display {
+  0% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+  10% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  17.5% {
+    opacity: 0;
+  }
+  20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
