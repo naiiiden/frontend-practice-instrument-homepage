@@ -636,4 +636,10 @@ main .video--player iframe {
   padding-top: calc(100px + 120*(100vw - 320px)/ 2180);
   padding-right: 1rem;
 }
+
+@media screen and (max-width: 1023px) {
+  .partners--container {
+    padding-right: 1.75rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */

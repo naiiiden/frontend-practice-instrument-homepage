@@ -8,3 +8,15 @@
         
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .partners--container {
+        padding-right: 1.75rem;
+
+        .row {
+            img {
+                // max-width: 175px;
+            }
+        }
+    }
+}
