@@ -783,14 +783,21 @@ main .video--player iframe {
 
 @-webkit-keyframes display {
   0% {
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
     opacity: 0;
+  }
+  7.5% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   10% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
     opacity: 1;
+  }
+  17.5% {
+    opacity: 0;
   }
   20% {
     -webkit-transform: translateY(0);
@@ -807,14 +814,21 @@ main .video--player iframe {
 
 @keyframes display {
   0% {
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
     opacity: 0;
+  }
+  7.5% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   10% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
     opacity: 1;
+  }
+  17.5% {
+    opacity: 0;
   }
   20% {
     -webkit-transform: translateY(0);
