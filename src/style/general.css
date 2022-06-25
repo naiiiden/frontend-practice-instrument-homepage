@@ -647,128 +647,128 @@ main .video--player iframe {
   position: absolute;
   top: 0;
   opacity: 0;
-  -webkit-animation: display 17.5s infinite;
-          animation: display 17.5s infinite;
+  -webkit-animation: display 13.5s infinite;
+          animation: display 13.5s infinite;
 }
 
 .partners--container .row img.img11 {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .partners--container .row img.img12 {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .partners--container .row img.img13 {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+
+.partners--container .row img.img14 {
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
 }
 
-.partners--container .row img.img14 {
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-}
-
 .partners--container .row img.img15 {
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  -webkit-animation-delay: 7.5s;
+          animation-delay: 7.5s;
 }
 
 .partners--container .row img.img16 {
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+
+.partners--container .row img.img17 {
+  -webkit-animation-delay: 10.5s;
+          animation-delay: 10.5s;
+}
+
+.partners--container .row img.img18 {
   -webkit-animation-delay: 12s;
           animation-delay: 12s;
 }
 
-.partners--container .row img.img17 {
-  -webkit-animation-delay: 14s;
-          animation-delay: 14s;
-}
-
-.partners--container .row img.img18 {
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s;
-}
-
 .partners--container .row img.img21 {
-  -webkit-animation-delay: 2.20s;
-          animation-delay: 2.20s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .partners--container .row img.img22 {
-  -webkit-animation-delay: 4.20s;
-          animation-delay: 4.20s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .partners--container .row img.img23 {
-  -webkit-animation-delay: 6.20s;
-          animation-delay: 6.20s;
+  -webkit-animation-delay: 4.50s;
+          animation-delay: 4.50s;
 }
 
 .partners--container .row img.img24 {
-  -webkit-animation-delay: 8.20s;
-          animation-delay: 8.20s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 
 .partners--container .row img.img25 {
-  -webkit-animation-delay: 10.20s;
-          animation-delay: 10.20s;
+  -webkit-animation-delay: 7.5s;
+          animation-delay: 7.5s;
 }
 
 .partners--container .row img.img26 {
-  -webkit-animation-delay: 12.20s;
-          animation-delay: 12.20s;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
 }
 
 .partners--container .row img.img27 {
-  -webkit-animation-delay: 14.20s;
-          animation-delay: 14.20s;
+  -webkit-animation-delay: 10.5s;
+          animation-delay: 10.5s;
 }
 
 .partners--container .row img.img28 {
-  -webkit-animation-delay: 16.20s;
-          animation-delay: 16.20s;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
 }
 
 .partners--container .row img.img31 {
-  -webkit-animation-delay: 2.40s;
-          animation-delay: 2.40s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .partners--container .row img.img32 {
-  -webkit-animation-delay: 4.40s;
-          animation-delay: 4.40s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .partners--container .row img.img33 {
-  -webkit-animation-delay: 6.40s;
-          animation-delay: 6.40s;
+  -webkit-animation-delay: 4.50s;
+          animation-delay: 4.50s;
 }
 
 .partners--container .row img.img34 {
-  -webkit-animation-delay: 8.40s;
-          animation-delay: 8.40s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 
 .partners--container .row img.img35 {
-  -webkit-animation-delay: 10.40s;
-          animation-delay: 10.40s;
+  -webkit-animation-delay: 7.50s;
+          animation-delay: 7.50s;
 }
 
 .partners--container .row img.img36 {
-  -webkit-animation-delay: 12.40s;
-          animation-delay: 12.40s;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
 }
 
 .partners--container .row img.img37 {
-  -webkit-animation-delay: 14.40s;
-          animation-delay: 14.40s;
+  -webkit-animation-delay: 10.50s;
+          animation-delay: 10.50s;
 }
 
 .partners--container .row img.img38 {
-  -webkit-animation-delay: 16.40s;
-          animation-delay: 16.40s;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
 }
 
 @-webkit-keyframes display {
