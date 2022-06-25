@@ -642,4 +642,12 @@ main .video--player iframe {
     padding-right: 1.75rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .partners--container {
+    margin: auto;
+    width: 60%;
+    padding-right: unset;
+  }
+}
 /*# sourceMappingURL=general.css.map */

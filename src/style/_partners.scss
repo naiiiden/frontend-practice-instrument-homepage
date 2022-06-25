@@ -20,3 +20,11 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .partners--container {
+        margin: auto;
+        width: 60%;
+        padding-right: unset;
+    }
+}
