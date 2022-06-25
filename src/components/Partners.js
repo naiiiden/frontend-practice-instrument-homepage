@@ -41,26 +41,26 @@ const Partners = () => {
                 <img src={intercom} alt="" className="img img18"/>            
             </div>
             <div className="row row2">
-                <img src={linkedin} alt="" className="img"/>
-                <img src={mercy_corps} alt="" className="img img21"/>
-                <img src={netflix} alt="" className="img img22"/>
-                <img src={new_knowledge} alt="" className="img img23"/>
-                <img src={nike} alt="" className="img img24"/>
-                <img src={one_medical} alt="" className="img img25"/>
-                <img src={patagonia} alt="" className="img img26"/>
-                <img src={path} alt="" className="img img27"/>
-                <img src={samsung} alt="" className="img img28"/>
+                <img src={linkedin} alt="" className="img imgrow2"/>
+                <img src={mercy_corps} alt="" className="img img21 imgrow2"/>
+                <img src={netflix} alt="" className="img img22 imgrow2"/>
+                <img src={new_knowledge} alt="" className="img img23 imgrow2"/>
+                <img src={nike} alt="" className="img img24 imgrow2"/>
+                <img src={one_medical} alt="" className="img img25 imgrow2"/>
+                <img src={patagonia} alt="" className="img img26 imgrow2"/>
+                <img src={path} alt="" className="img img27 imgrow2"/>
+                <img src={samsung} alt="" className="img img28 imgrow2"/>
             </div>
             <div className="row row3">
-                <img src={sonos} alt="" className="img"/>
-                <img src={specialized} alt="" className="img img31"/>
-                <img src={spotify} alt="" className="img img32"/>
-                <img src={stumptown} alt="" className="img img33"/>
-                <img src={tumblr} alt="" className="img img34"/>
-                <img src={umpqua} alt="" className="img img35"/>
-                <img src={xbox} alt="" className="img img36"/>
-                <img src={yeti} alt="" className="img img37"/>
-                <img src={youtube} alt="" className="img img38"/>
+                <img src={sonos} alt="" className="img imgrow3"/>
+                <img src={specialized} alt="" className="img img31 imgrow3"/>
+                <img src={spotify} alt="" className="img img32 imgrow3"/>
+                <img src={stumptown} alt="" className="img img33 imgrow3"/>
+                <img src={tumblr} alt="" className="img img34 imgrow3"/>
+                <img src={umpqua} alt="" className="img img35 imgrow3"/>
+                <img src={xbox} alt="" className="img img36 imgrow3"/>
+                <img src={yeti} alt="" className="img img37 imgrow3"/>
+                <img src={youtube} alt="" className="img img38 imgrow3"/>
             </div>
         </div>
     )

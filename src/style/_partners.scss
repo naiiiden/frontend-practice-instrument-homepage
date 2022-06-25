@@ -15,6 +15,14 @@
             opacity: 0;
             animation: display 13.5s infinite;
 
+            &.imgrow2 {
+                animation: display 13.65s infinite;
+            }
+
+            &.imgrow3 {
+                animation: display 13.8s infinite;
+            }
+
             &.img11 {
                 animation-delay: 1.5s;
             }
@@ -48,67 +56,67 @@
             }
 
             &.img21 {
-                animation-delay: 1.5s;
+                animation-delay: 1.7s;
             }
 
             &.img22 {
-                animation-delay: 3s;
+                animation-delay: 3.2s;
             }
 
             &.img23 {
-                animation-delay: 4.50s;
+                animation-delay: 4.70s;
             }
 
             &.img24 {
-                animation-delay: 6s;
+                animation-delay: 6.2s;
             }
 
             &.img25 {
-                animation-delay: 7.5s;
+                animation-delay: 7.7s;
             }
 
             &.img26 {
-                animation-delay: 9s;
+                animation-delay: 9.2s;
             }
 
             &.img27 {
-                animation-delay: 10.5s;
+                animation-delay: 10.7s;
             }
 
             &.img28 {
-                animation-delay: 12s;
+                animation-delay: 12.2s;
             }
 
             &.img31 {
-                animation-delay: 1.5s;
+                animation-delay: 1.9s;
             }
 
             &.img32 {
-                animation-delay: 3s;
+                animation-delay: 3.4s;
             }
 
             &.img33 {
-                animation-delay: 4.50s;
+                animation-delay: 4.90s;
             }
 
             &.img34 {
-                animation-delay: 6s;
+                animation-delay: 6.4s;
             }
 
             &.img35 {
-                animation-delay: 7.50s;
+                animation-delay: 7.90s;
             }
 
             &.img36 {
-                animation-delay: 9s;
+                animation-delay: 9.4s;
             }
 
             &.img37 {
-                animation-delay: 10.50s;
+                animation-delay: 10.90s;
             }
 
             &.img38 {
-                animation-delay: 12s;
+                animation-delay: 12.4s;
             }
         }
     }

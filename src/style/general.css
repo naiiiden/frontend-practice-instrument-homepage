@@ -651,6 +651,16 @@ main .video--player iframe {
           animation: display 13.5s infinite;
 }
 
+.partners--container .row img.imgrow2 {
+  -webkit-animation: display 13.65s infinite;
+          animation: display 13.65s infinite;
+}
+
+.partners--container .row img.imgrow3 {
+  -webkit-animation: display 13.8s infinite;
+          animation: display 13.8s infinite;
+}
+
 .partners--container .row img.img11 {
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
@@ -692,83 +702,83 @@ main .video--player iframe {
 }
 
 .partners--container .row img.img21 {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
 }
 
 .partners--container .row img.img22 {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-delay: 3.2s;
+          animation-delay: 3.2s;
 }
 
 .partners--container .row img.img23 {
-  -webkit-animation-delay: 4.50s;
-          animation-delay: 4.50s;
+  -webkit-animation-delay: 4.70s;
+          animation-delay: 4.70s;
 }
 
 .partners--container .row img.img24 {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  -webkit-animation-delay: 6.2s;
+          animation-delay: 6.2s;
 }
 
 .partners--container .row img.img25 {
-  -webkit-animation-delay: 7.5s;
-          animation-delay: 7.5s;
+  -webkit-animation-delay: 7.7s;
+          animation-delay: 7.7s;
 }
 
 .partners--container .row img.img26 {
-  -webkit-animation-delay: 9s;
-          animation-delay: 9s;
+  -webkit-animation-delay: 9.2s;
+          animation-delay: 9.2s;
 }
 
 .partners--container .row img.img27 {
-  -webkit-animation-delay: 10.5s;
-          animation-delay: 10.5s;
+  -webkit-animation-delay: 10.7s;
+          animation-delay: 10.7s;
 }
 
 .partners--container .row img.img28 {
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  -webkit-animation-delay: 12.2s;
+          animation-delay: 12.2s;
 }
 
 .partners--container .row img.img31 {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  -webkit-animation-delay: 1.9s;
+          animation-delay: 1.9s;
 }
 
 .partners--container .row img.img32 {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-delay: 3.4s;
+          animation-delay: 3.4s;
 }
 
 .partners--container .row img.img33 {
-  -webkit-animation-delay: 4.50s;
-          animation-delay: 4.50s;
+  -webkit-animation-delay: 4.90s;
+          animation-delay: 4.90s;
 }
 
 .partners--container .row img.img34 {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  -webkit-animation-delay: 6.4s;
+          animation-delay: 6.4s;
 }
 
 .partners--container .row img.img35 {
-  -webkit-animation-delay: 7.50s;
-          animation-delay: 7.50s;
+  -webkit-animation-delay: 7.90s;
+          animation-delay: 7.90s;
 }
 
 .partners--container .row img.img36 {
-  -webkit-animation-delay: 9s;
-          animation-delay: 9s;
+  -webkit-animation-delay: 9.4s;
+          animation-delay: 9.4s;
 }
 
 .partners--container .row img.img37 {
-  -webkit-animation-delay: 10.50s;
-          animation-delay: 10.50s;
+  -webkit-animation-delay: 10.90s;
+          animation-delay: 10.90s;
 }
 
 .partners--container .row img.img38 {
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  -webkit-animation-delay: 12.4s;
+          animation-delay: 12.4s;
 }
 
 @-webkit-keyframes display {
