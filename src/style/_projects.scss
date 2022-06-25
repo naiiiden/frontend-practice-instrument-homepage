@@ -36,7 +36,7 @@
         .projects--work {
             display: flex;
             flex-direction: column;
-            padding-top: calc(80px + 120*(100vw - 320px)/ 2180);
+            margin-top: calc(80px + 120*(100vw - 320px)/ 2180);
             color: $white;
             text-decoration: none;
 

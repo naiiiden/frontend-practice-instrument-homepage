@@ -511,7 +511,7 @@ main .video--player iframe {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: calc(80px + 120*(100vw - 320px)/ 2180);
+  margin-top: calc(80px + 120*(100vw - 320px)/ 2180);
   color: #fff;
   text-decoration: none;
 }
