@@ -635,6 +635,17 @@ main .video--player iframe {
           justify-content: center;
   padding-top: calc(100px + 120*(100vw - 320px)/ 2180);
   padding-right: 1rem;
+  width: 100%;
+}
+
+.partners--container .row {
+  position: relative;
+  width: 33.33333%;
+}
+
+.partners--container .row img {
+  position: absolute;
+  top: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -646,7 +657,7 @@ main .video--player iframe {
 @media screen and (min-width: 1024px) {
   .partners--container {
     margin: auto;
-    width: 60%;
+    width: 60.125%;
     padding-right: unset;
   }
 }

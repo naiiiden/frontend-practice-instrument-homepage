@@ -3,28 +3,30 @@
     justify-content: center;
     padding-top: calc(100px + 120*(100vw - 320px)/ 2180);
     padding-right: 1rem;
+    width: 100%;
 
     .row {
-        
+        position: relative;
+        width: 33.33333%;
+
+        img {
+            position: absolute;
+            top: 0;
+            // opacity: 0;
+        }
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .partners--container {
         padding-right: 1.75rem;
-
-        .row {
-            img {
-                // max-width: 175px;
-            }
-        }
     }
 }
 
 @media screen and (min-width: 1024px) {
     .partners--container {
         margin: auto;
-        width: 60%;
+        width: 60.125%;
         padding-right: unset;
     }
 }
