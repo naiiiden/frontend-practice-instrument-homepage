@@ -8,7 +8,8 @@
         "_articles.scss",
         "_projects.scss",
         "_partners.scss",
-        "_cta.scss"
+        "_cta.scss",
+        "_footer.scss"
     ],
     "names": [],
     "file": "general.css"
