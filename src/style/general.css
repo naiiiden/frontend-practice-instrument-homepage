@@ -630,6 +630,12 @@ main .video--player iframe {
   height: 15rem;
 }
 
+@media screen and (min-width: 425px) {
+  .absolute--fix {
+    height: 20rem;
+  }
+}
+
 .partners--container {
   display: -webkit-box;
   display: -ms-flexbox;

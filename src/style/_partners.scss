@@ -2,6 +2,12 @@
     height: 15rem;
 }
 
+@media screen and (min-width: 425px) {
+    .absolute--fix {
+        height: 20rem;
+    }
+}
+
 .partners--container {
     display: flex;
     justify-content: center;
