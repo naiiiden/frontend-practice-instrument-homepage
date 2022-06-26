@@ -1,0 +1,32 @@
+.cta--section {
+    padding: 1.75rem 8vw;
+
+    .cta--heading {
+        font-size: calc(28px + 68*(100vw - 320px)/ 2180);
+        font-weight: 400;
+        letter-spacing: -0.04rem;
+        word-spacing: 0.02rem;
+        line-height: 1.17;
+
+    }
+   
+    a {
+        margin: 24px 0;
+        border-radius: 22px;
+        height: 44px;
+        padding: 0 24px;
+        background: $white;
+        font-family: monument-grotesk-semi-mono;
+        font-size: 14px;
+        color: $black;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        width: fit-content;
+
+        img {
+            margin: unset;
+        }
+    }
+}
