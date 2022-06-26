@@ -28,6 +28,8 @@ import levi from "../images/levi.png";
 
 const Partners = () => {
     return (
+        <div className="absolute--fix">
+
         <div className="partners--container">
             <div className="row row1">
                 <img src={levi} alt="" className="img"/>
@@ -62,6 +64,7 @@ const Partners = () => {
                 <img src={yeti} alt="" className="img img37 imgrow3"/>
                 <img src={youtube} alt="" className="img img38 imgrow3"/>
             </div>
+        </div>
         </div>
     )
 }

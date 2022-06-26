@@ -626,6 +626,10 @@ main .video--player iframe {
   }
 }
 
+.absolute--fix {
+  height: 15rem;
+}
+
 .partners--container {
   display: -webkit-box;
   display: -ms-flexbox;
