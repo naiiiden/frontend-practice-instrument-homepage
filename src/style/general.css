@@ -927,4 +927,22 @@ main .video--player iframe {
     margin: 40px 0;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .cta--section {
+    margin-top: calc(160px + 120*(100vw - 320px)/ 2180);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cta--section {
+    margin-top: 32.5vh;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cta--section {
+    margin-top: 40vh;
+  }
+}
 /*# sourceMappingURL=general.css.map */
