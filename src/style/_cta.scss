@@ -30,3 +30,16 @@
         }
     }
 }
+
+@media screen and (min-width: 500px) {
+    .cta--section {
+        margin-top: calc(50px + 120*(100vw - 320px)/ 2180);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        a {
+            margin: 40px 0;
+        }
+    }
+}
