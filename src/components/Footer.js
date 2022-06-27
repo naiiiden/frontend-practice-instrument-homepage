@@ -8,7 +8,7 @@ const Footer = () => {
         <footer>
             <nav className="footer--nav">
                 <ul className="footer--nav--ul">
-                    <li><a className="active">HOME</a></li>
+                    <li><a href="#top" className="active">HOME</a></li>
                     <li><a href="https://www.instrument.com/what-we-do">WHAT WE DO</a></li>
                     <li><a href="https://www.instrument.com/work">WORK</a></li>
                     <li><a href="https://www.instrument.com/who-we-are">WHO WE ARE</a></li>

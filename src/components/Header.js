@@ -18,7 +18,7 @@ const Header = () => {
     }}
 
     return (
-        <header className="header">
+        <header className="header" id="header">
             <img src={Logo} alt="Instrument's logo" className="logo"/>
             <button style={{border: "none", background: "none"}} onClick={() => setOpenMenu(!openMenu)}>
                 <img src={!openMenu ? Menu : Close} alt=""/>
