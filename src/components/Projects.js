@@ -1,9 +1,6 @@
-import arrow from "../images/arrow.svg";
-import dec1 from "../images/dec1.png";
-import dec3 from "../images/dec3.jpg";
 import "animate.css";
 import WOW from "wow.js";
-
+import BtnLink from "./Button";
 
 const Projects = () => {
     new WOW().init();
@@ -12,7 +9,7 @@ const Projects = () => {
         <section className="projects--section">
             <div className="projects--heading--work--container wow animate__animated animate__fadeIn" data-wow-offset="200">
                 <h2 className="projects--heading">Explore a few of our most impactful projects</h2>
-                <a href="https://www.instrument.com/work">Our work <img src={arrow} alt=""/></a>
+                <BtnLink href="https://www.instrument.com/work" text="Our work"/>
             </div>
             <div className="projects--works--container wow animate__animated animate__fadeIn" data-wow-offset="300">
                 <a className="projects--work" href="https://www.instrument.com/work/eames-institute">
