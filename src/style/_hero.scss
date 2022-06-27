@@ -57,23 +57,6 @@ main {
         font-size: calc(19px + 13*(100vw - 320px)/ 2180);
     }
 
-    a {
-        margin-top: 40px;
-        height: 44px;
-        padding: 0 24px;
-        border-radius: 22px;
-        background: $white;
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        font-family: monument-grotesk-semi-mono;
-        font-size: 14px;
-        color: $black;
-        text-decoration: none;
-        line-height: 1.71;
-        letter-spacing: .8px;
-    }
-
     .video--player {
         z-index: 0;
         margin: calc(55px + 65*(100vw - 320px)/ 2180) auto 0 auto;

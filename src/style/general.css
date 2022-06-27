@@ -269,27 +269,6 @@ main p {
   font-size: calc(19px + 13*(100vw - 320px)/ 2180);
 }
 
-main a {
-  margin-top: 40px;
-  height: 44px;
-  padding: 0 24px;
-  border-radius: 22px;
-  background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 15px;
-  font-family: monument-grotesk-semi-mono;
-  font-size: 14px;
-  color: #000;
-  text-decoration: none;
-  line-height: 1.71;
-  letter-spacing: .8px;
-}
-
 main .video--player {
   z-index: 0;
   margin: calc(55px + 65*(100vw - 320px)/ 2180) auto 0 auto;
