@@ -125,8 +125,6 @@ footer {
 @media screen and (min-width: 1024px) {
     footer {
         .footer--nav {
-
-
             .footer--nav--ul {
                 a {
                     &::before, &::after {
@@ -166,7 +164,6 @@ footer {
         .newsletter--socials--container {
             flex-direction: row;
 
-
             button {
                 margin-bottom: unset;
                 margin-right: 36px;
@@ -181,6 +178,14 @@ footer {
                     transition: .2s;
                 }
             }
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    footer {
+        .footer--nav {
+            gap: 12.5rem;
         }
     }
 }
