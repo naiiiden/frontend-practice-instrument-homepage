@@ -930,6 +930,33 @@ footer .newsletter--socials--container .socials--container {
   gap: 32px;
 }
 
+@media screen and (min-width: 500px) {
+  footer .footer--nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 7.5rem;
+  }
+  footer .newsletter--socials--container {
+    margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .newsletter--socials--container button {
+    margin-top: unset;
+  }
+  footer .newsletter--socials--container .socials--container {
+    margin-top: unset;
+  }
+}
+
 .BtnLink--component {
   margin: 24px 0;
   border-radius: 22px;
