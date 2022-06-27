@@ -8,25 +8,25 @@ const Footer = () => {
         <footer>
             <nav className="footer--nav">
                 <ul className="footer--nav--ul">
-                    <li><a href="#" className="active">HOME</a></li>
-                    <li><a href="#">WHAT WE DO</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#">WHO WE ARE</a></li>
-                    <li><a href="#">ARTICLES</a></li>
+                    <li><a className="active">HOME</a></li>
+                    <li><a href="https://www.instrument.com/what-we-do">WHAT WE DO</a></li>
+                    <li><a href="https://www.instrument.com/work">WORK</a></li>
+                    <li><a href="https://www.instrument.com/who-we-are">WHO WE ARE</a></li>
+                    <li><a href="https://www.instrument.com/articles">ARTICLES</a></li>
                 </ul>
                 <ul className="footer--nav--ul">
-                    <li><a href="#">BEING HERE</a></li>
-                    <li><a href="#">CAREERS</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">PRIVACY</a></li>
+                    <li><a href="https://www.instrument.com/being-here">BEING HERE</a></li>
+                    <li><a href="https://www.instrument.com/careers">CAREERS</a></li>
+                    <li><a href="https://www.instrument.com/contact">CONTACT</a></li>
+                    <li><a href="https://www.instrument.com/privacy">PRIVACY</a></li>
                 </ul>
             </nav>
             <div className="newsletter--socials--container">
                 <button>NEWSLETTER <img src={arrow__footer} alt=""/></button>
                 <ul className="socials--container">
-                    <li><a href="#"><img src={instagram} alt="link to our instagram"/></a></li>
-                    <li><a href="#"><img src={twitter} alt="link to our twitter"/></a></li>
-                    <li><a href="#"><img src={linkedin} alt="link to our linkedin"/></a></li>
+                    <li><a href="https://instagram.com/instrument"><img src={instagram} alt="link to our instagram"/></a></li>
+                    <li><a href="https://twitter.com/instrument"><img src={twitter} alt="link to our twitter"/></a></li>
+                    <li><a href="https://linkedin.com/company/instrument"><img src={linkedin} alt="link to our linkedin"/></a></li>
                 </ul>
             </div>
         </footer>

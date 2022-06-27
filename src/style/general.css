@@ -879,6 +879,7 @@ footer .footer--nav .footer--nav--ul a {
   color: #fff;
   text-decoration: none;
   position: relative;
+  cursor: pointer;
 }
 
 footer .footer--nav .footer--nav--ul a.active::before, footer .footer--nav .footer--nav--ul a.active::after {
