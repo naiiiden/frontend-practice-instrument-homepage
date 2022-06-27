@@ -25,26 +25,6 @@
             line-height: 1.5;
             word-spacing: 0.4px;
         }
-
-        a {
-            margin: 40px 0;
-            border-radius: 22px;
-            height: 44px;
-            padding: 0 24px;
-            background: $white;
-            font-family: monument-grotesk-semi-mono;
-            font-size: 14px;
-            color: $black;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            width: fit-content;
-
-            img {
-                margin: unset;
-            }
-        }
     }
 }
 
@@ -96,15 +76,6 @@
 
             &.reverse {
                 flex-direction: row-reverse;
-            }
-
-            a {
-                transition: .2s;
-    
-                &:hover {
-                    opacity: .6;
-                    transition: .2s;
-                }
             }
         }
     }

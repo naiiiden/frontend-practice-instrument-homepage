@@ -1,4 +1,3 @@
-import arrow from "../images/arrow.svg";
 import "animate.css";
 import WOW from "wow.js";
 import BtnLink from "./Button";

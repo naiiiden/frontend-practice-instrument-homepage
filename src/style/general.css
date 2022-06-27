@@ -373,32 +373,6 @@ main .video--player iframe {
   word-spacing: 0.4px;
 }
 
-.articles--section .article--container a {
-  margin: 40px 0;
-  border-radius: 22px;
-  height: 44px;
-  padding: 0 24px;
-  background: #fff;
-  font-family: monument-grotesk-semi-mono;
-  font-size: 14px;
-  color: #000;
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 15px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.articles--section .article--container a img {
-  margin: unset;
-}
-
 @media screen and (min-width: 500px) {
   .articles--section {
     margin-top: calc(125px + 120*(100vw - 320px)/ 2180);
@@ -450,15 +424,6 @@ main .video--player iframe {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-  }
-  .articles--section .article--container a {
-    -webkit-transition: .2s;
-    transition: .2s;
-  }
-  .articles--section .article--container a:hover {
-    opacity: .6;
-    -webkit-transition: .2s;
-    transition: .2s;
   }
 }
 
@@ -940,7 +905,7 @@ main .video--player iframe {
 }
 
 .BtnLink--component img {
-  margin: unset;
+  margin: unset !important;
 }
 
 @media screen and (min-width: 500px) {
