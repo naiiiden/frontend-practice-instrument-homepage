@@ -1,0 +1,39 @@
+.BtnLink--component {
+    margin: 24px 0;
+    border-radius: 22px;
+    height: 44px;
+    padding: 0 24px;
+    background: $white;
+    font-family: monument-grotesk-semi-mono;
+    font-size: 14px;
+    color: $black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: fit-content;
+
+    img {
+        margin: unset;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .BtnLink--component {
+        margin: 40px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .BtnLink--component {
+        padding: 0 32px;
+        height: 54px;
+        border-radius: 27px;
+        transition: .2s;
+
+        &:hover {
+            opacity: .6;
+            transition: .2s;
+        }
+    }
+}

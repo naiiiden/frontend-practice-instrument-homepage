@@ -883,7 +883,41 @@ main .video--player iframe {
   line-height: 1.17;
 }
 
-.cta--section a {
+@media screen and (min-width: 500px) {
+  .cta--section {
+    margin-top: calc(50px + 120*(100vw - 320px)/ 2180);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cta--section {
+    margin-top: calc(160px + 120*(100vw - 320px)/ 2180);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cta--section {
+    margin-top: 32.5vh;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cta--section {
+    margin-top: 40vh;
+  }
+}
+
+.BtnLink--component {
   margin: 24px 0;
   border-radius: 22px;
   height: 44px;
@@ -905,59 +939,28 @@ main .video--player iframe {
   width: fit-content;
 }
 
-.cta--section a img {
+.BtnLink--component img {
   margin: unset;
 }
 
 @media screen and (min-width: 500px) {
-  .cta--section {
-    margin-top: calc(50px + 120*(100vw - 320px)/ 2180);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .cta--section a {
+  .BtnLink--component {
     margin: 40px 0;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .cta--section {
-    margin-top: calc(160px + 120*(100vw - 320px)/ 2180);
-  }
-}
-
 @media screen and (min-width: 1024px) {
-  .cta--section a {
+  .BtnLink--component {
     padding: 0 32px;
     height: 54px;
     border-radius: 27px;
     -webkit-transition: .2s;
     transition: .2s;
   }
-  .cta--section a:hover {
+  .BtnLink--component:hover {
     opacity: .6;
     -webkit-transition: .2s;
     transition: .2s;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cta--section {
-    margin-top: 32.5vh;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .cta--section {
-    margin-top: 40vh;
   }
 }
 /*# sourceMappingURL=general.css.map */
