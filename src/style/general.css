@@ -54,6 +54,7 @@ header {
   -webkit-transition: top .2s;
   transition: top .2s;
   background: #000;
+  z-index: 99;
 }
 
 header .logo {
@@ -94,6 +95,9 @@ header nav ul.show {
   position: fixed;
   top: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 8vw;
   height: 100vh;
   width: 100%;
   z-index: 99;
