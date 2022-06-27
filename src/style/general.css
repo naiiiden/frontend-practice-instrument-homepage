@@ -992,6 +992,22 @@ footer .newsletter--socials--container .socials--container {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  footer .newsletter--socials--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .newsletter--socials--container button {
+    margin-bottom: unset;
+    margin-right: 36px;
+    height: 54px;
+    padding: 0 32px;
+    border-radius: 27px;
+  }
+}
+
 .BtnLink--component {
   margin: 24px 0;
   border-radius: 22px;

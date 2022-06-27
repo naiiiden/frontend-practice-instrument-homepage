@@ -120,3 +120,19 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    footer {
+        .newsletter--socials--container {
+            flex-direction: row;
+
+            button {
+                margin-bottom: unset;
+                margin-right: 36px;
+                height: 54px;
+                padding: 0 32px;
+                border-radius: 27px;
+            }
+        }
+    }
+}
