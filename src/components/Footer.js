@@ -8,7 +8,7 @@ const Footer = () => {
         <footer>
             <nav className="footer--nav">
                 <ul className="footer--nav--ul">
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="#" className="active">HOME</a></li>
                     <li><a href="#">WHAT WE DO</a></li>
                     <li><a href="#">WORK</a></li>
                     <li><a href="#">WHO WE ARE</a></li>
