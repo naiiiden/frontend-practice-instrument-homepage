@@ -124,8 +124,48 @@ footer {
 
 @media screen and (min-width: 1024px) {
     footer {
+        .footer--nav {
+
+
+            .footer--nav--ul {
+                a {
+                    &::before, &::after {
+                        display: flex;
+                        opacity: 0;
+                        pointer-events: none;
+                        position: absolute;
+                        top: calc(50% - 1px);
+                        transform: translateY(-50%);
+                        transition: opacity .3s ease-in-out;
+                    }
+
+                    &::before {
+                        content: "[";
+                        left: -20px;
+                    }
+
+                    &::after {
+                        content: "]";
+                        right: -20px;
+                    }
+
+                    &:hover {
+                        &::before {                            
+                            opacity: .5;
+                        }
+    
+                        &::after {
+                            opacity: .5;
+                        }
+                    }
+
+                }
+            }
+        }
+
         .newsletter--socials--container {
             flex-direction: row;
+
 
             button {
                 margin-bottom: unset;
@@ -133,6 +173,13 @@ footer {
                 height: 54px;
                 padding: 0 32px;
                 border-radius: 27px;
+                cursor: pointer;
+                transition: .2s;
+
+                &:hover {
+                    opacity: .6;
+                    transition: .2s;
+                }
             }
         }
     }
