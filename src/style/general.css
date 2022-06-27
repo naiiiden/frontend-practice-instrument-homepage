@@ -957,6 +957,41 @@ footer .newsletter--socials--container .socials--container {
   }
 }
 
+@media screen and (min-width: 768px) {
+  footer {
+    padding: calc(100px + 120*(100vw - 320px)/ 2180) 4vw 40px 4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer .footer--nav {
+    gap: 10rem;
+  }
+  footer .newsletter--socials--container {
+    margin-top: unset;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .newsletter--socials--container button {
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 22px;
+    height: 44px;
+    padding: 0 24px;
+  }
+  footer .newsletter--socials--container .socials--container {
+    gap: 48px;
+  }
+}
+
 .BtnLink--component {
   margin: 24px 0;
   border-radius: 22px;
