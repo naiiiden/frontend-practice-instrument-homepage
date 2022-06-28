@@ -3,8 +3,11 @@ import instagram from "../images/instagram.svg";
 import twitter from "../images/twitter.svg";
 import linkedin from "../images/linkedin.svg";
 import Newsletter from "./Newsletter";
+import { useState } from "react";
 
 const Footer = () => {
+    const [openModal, setOpenModal] = useState(false);
+
     return (
         <footer>
             <nav className="footer--nav">
@@ -23,14 +26,14 @@ const Footer = () => {
                 </ul>
             </nav>
             <div className="newsletter--socials--container">
-                <button>NEWSLETTER <img src={arrow__footer} alt=""/></button>
+                <button onClick={() => setOpenModal(true)}>NEWSLETTER <img src={arrow__footer} alt=""/></button>
                 <ul className="socials--container">
                     <li><a href="https://instagram.com/instrument"><img src={instagram} alt="link to our instagram"/></a></li>
                     <li><a href="https://twitter.com/instrument"><img src={twitter} alt="link to our twitter"/></a></li>
                     <li><a href="https://linkedin.com/company/instrument"><img src={linkedin} alt="link to our linkedin"/></a></li>
                 </ul>
             </div>
-            <Newsletter/>
+            {openModal === true ? <Newsletter onClick={() => setOpenModal(false)}/> : ""}
         </footer>
     )
 }
