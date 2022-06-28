@@ -14,7 +14,7 @@ const Newsletter = ({ onClick }) => {
             </div>
             <form className="newsletter--form">
                 <input type="email" placeholder="Enter Email Address..."/>
-                <button type="submit">Subscribe <img src={arrow} alt=""/></button>
+                <button type="submit">Subscribe<img src={arrow} alt=""/></button>
             </form>
         </section>
     )

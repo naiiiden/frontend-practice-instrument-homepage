@@ -1047,7 +1047,7 @@ footer .newsletter--socials--container .socials--container {
 }
 
 .newsletter--modal {
-  border: 1px solid red;
+  padding: 1.5rem 8vw;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: blur(1vw);
@@ -1056,6 +1056,105 @@ footer .newsletter--socials--container .socials--container {
   left: 0;
   right: 0;
   width: 100%;
+}
+
+.newsletter--modal .heading--close_btn--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.newsletter--modal .heading--close_btn--container .at--heading--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.newsletter--modal .heading--close_btn--container .at--heading--container h3 {
+  font-size: 14px;
+  font-family: monument-grotesk-semi-mono;
+  font-weight: 400;
+  letter-spacing: .8px;
+  line-height: 1;
+}
+
+.newsletter--modal .heading--close_btn--container button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  width: 44px;
+  height: 44px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.newsletter--modal .newsletter--form {
+  margin-top: calc(64px + 8vw);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.newsletter--modal .newsletter--form input {
+  color: #fff;
+  font-size: calc(24px + 24*(100vw - 320px)/ 2180);
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  width: 100%;
+  padding: .3ch 0;
+}
+
+.newsletter--modal .newsletter--form input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.newsletter--modal .newsletter--form input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.newsletter--modal .newsletter--form input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.newsletter--modal .newsletter--form input::placeholder {
+  color: #fff;
+}
+
+.newsletter--modal .newsletter--form button {
+  margin-top: 6vw;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: transparent;
+  border-radius: 22px;
+  height: 44px;
+  padding: 0 24px;
+  font-family: monument-grotesk-semi-mono;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: .8px;
+}
+
+.newsletter--modal .newsletter--form button img {
+  margin-left: 15px;
 }
 
 .BtnLink--component {
