@@ -71,6 +71,12 @@ header {
     }
 }
 
+@media screen and (min-width: 500px) {
+    header {
+        padding: 2.5rem 4vw;
+    }
+}
+
 @media screen and (min-width: 768px) {
     header {
         padding: 2.5rem 4vw;
