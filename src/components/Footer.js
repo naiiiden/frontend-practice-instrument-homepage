@@ -2,6 +2,7 @@ import arrow__footer from "../images/arrow__footer.svg";
 import instagram from "../images/instagram.svg";
 import twitter from "../images/twitter.svg";
 import linkedin from "../images/linkedin.svg";
+import Newsletter from "./Newsletter";
 
 const Footer = () => {
     return (
@@ -29,6 +30,7 @@ const Footer = () => {
                     <li><a href="https://linkedin.com/company/instrument"><img src={linkedin} alt="link to our linkedin"/></a></li>
                 </ul>
             </div>
+            <Newsletter/>
         </footer>
     )
 }
