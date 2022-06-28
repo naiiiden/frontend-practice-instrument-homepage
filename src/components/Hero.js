@@ -4,6 +4,7 @@ import Serve from "../images/serve.svg";
 import "animate.css";
 import WOW from "wow.js";
 import BtnLink from "./Button";
+import Paragraph from "./Paragraph";
 
 
 const Hero = () => {
@@ -25,7 +26,7 @@ const Hero = () => {
                     <img src={Serve} alt="" className="serve--svg"/>
                 </span>
             </h1>
-            <p>We are investing $3 million over the next three years in our Build|Grow|Serve program, created to support and empower Black and underrepresented communities.</p>
+            <Paragraph text="We are investing $3 million over the next three years in our Build|Grow|Serve program, created to support and empower Black and underrepresented communities."/>
             <BtnLink href="#" text="Learn more"/>
             <div className="video--player wow animate__animated animate__fadeIn" data-wow-offset="400">
                 <iframe src="https://player.vimeo.com/video/428281636?h=be0963aaa9?autoplay=1&muted=1" frameBorder={0} allow="autoplay; fullscreen;" title="Instrument's 2021 Showcase Reel"></iframe>

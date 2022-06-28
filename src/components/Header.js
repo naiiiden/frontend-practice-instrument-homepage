@@ -6,7 +6,7 @@ import { useState } from "react";
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
-    {var prevScrollpos = window.pageYOffset;
+    var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
@@ -15,7 +15,7 @@ const Header = () => {
             document.querySelector(".header").style.top = "-110px";
         }
         prevScrollpos = currentScrollPos;
-    }}
+    }
 
     return (
         <header className="header" id="header">
