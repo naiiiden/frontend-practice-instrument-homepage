@@ -77,3 +77,13 @@
         }
     }
 }
+
+@media screen and (min-width: 500px) {
+    .newsletter--modal {
+        padding: 2rem 4vw;
+
+        .newsletter--form {
+            margin-top: 96px;
+        }
+    }
+}

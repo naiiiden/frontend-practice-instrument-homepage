@@ -1163,6 +1163,15 @@ footer .newsletter--socials--container .socials--container {
   margin-left: 15px;
 }
 
+@media screen and (min-width: 500px) {
+  .newsletter--modal {
+    padding: 2rem 4vw;
+  }
+  .newsletter--modal .newsletter--form {
+    margin-top: 96px;
+  }
+}
+
 .BtnLink--component {
   margin: 24px 0;
   border-radius: 22px;
