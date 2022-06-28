@@ -934,11 +934,22 @@ footer .newsletter--socials--container .socials--container {
 }
 
 @media screen and (min-width: 500px) {
+  footer {
+    padding: calc(100px + 120*(100vw - 320px)/ 2180) 4vw 40px 4vw;
+  }
   footer .footer--nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     gap: 7.5rem;
+  }
+  footer .footer--nav .footer--nav--ul a.active::before {
+    content: "[";
+    left: -15px;
+  }
+  footer .footer--nav .footer--nav--ul a.active::after {
+    content: "]";
+    right: -15px;
   }
   footer .newsletter--socials--container {
     margin-top: 1rem;
@@ -975,6 +986,14 @@ footer .newsletter--socials--container .socials--container {
   }
   footer .footer--nav {
     gap: 10rem;
+  }
+  footer .footer--nav .footer--nav--ul a.active::before {
+    content: "[";
+    left: -20px;
+  }
+  footer .footer--nav .footer--nav--ul a.active::after {
+    content: "]";
+    right: -20px;
   }
   footer .newsletter--socials--container {
     margin-top: unset;
