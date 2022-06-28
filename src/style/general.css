@@ -1046,6 +1046,18 @@ footer .newsletter--socials--container .socials--container {
   }
 }
 
+.newsletter--modal {
+  border: 1px solid red;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(1vw);
+          backdrop-filter: blur(1vw);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
 .BtnLink--component {
   margin: 24px 0;
   border-radius: 22px;
