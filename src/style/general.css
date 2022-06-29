@@ -1191,6 +1191,24 @@ footer .newsletter--socials--container .socials--container {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .newsletter--modal .newsletter--form {
+    margin-top: 64px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .newsletter--modal .newsletter--form input {
+    width: 70%;
+    max-width: 600px;
+    margin-right: 4vw;
+  }
+  .newsletter--modal .newsletter--form button {
+    margin-top: unset;
+  }
+}
+
 .BtnLink--component {
   margin: 24px 0;
   border-radius: 22px;

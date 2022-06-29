@@ -87,3 +87,22 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    .newsletter--modal {
+        .newsletter--form {
+            margin-top: 64px;
+            flex-direction: row;
+
+            input {
+                width: 70%;
+                max-width: 600px;
+                margin-right: 4vw;
+            }
+
+            button {
+                margin-top: unset;
+            }
+        }
+    }
+}
