@@ -33,6 +33,14 @@ body {
   font-family: whyte-book;
 }
 
+.body--light {
+  background: #fff;
+}
+
+.header--light {
+  background: #fff;
+}
+
 img {
   max-width: 100%;
   height: auto;

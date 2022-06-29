@@ -3,7 +3,7 @@ import Menu from "../images/menu.svg";
 import Close from "../images/close.svg";
 import { useState } from "react";
 
-const Header = () => {
+const Header = ({ darkMode, toggleDarkMode }) => {
     const [openMenu, setOpenMenu] = useState(false);
 
     {var prevScrollpos = window.pageYOffset;
@@ -18,11 +18,12 @@ const Header = () => {
     }}
 
     return (
-        <header className="header" id="header">
+        <header className={`header ${darkMode ? "" : "header--light"}`} id="header">
             <img src={Logo} alt="Instrument's logo" className="logo"/>
             <button style={{border: "none", background: "none"}} onClick={() => setOpenMenu(!openMenu)}>
                 <img src={!openMenu ? Menu : Close} alt=""/>
             </button>
+            <button onClick={toggleDarkMode}>TEST</button>
             <nav>
                 <ul className={`${openMenu ? "show" : null}`}>
                     <li><a href="https://www.instrument.com/what-we-do">WHAT WE DO</a></li>
