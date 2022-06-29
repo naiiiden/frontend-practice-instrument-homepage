@@ -43,6 +43,10 @@ body {
 
 .header--light {
     background: $white;
+
+    button {
+        background: red !important;
+    }
 }
 
 img {

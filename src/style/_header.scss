@@ -2,6 +2,7 @@ header {
     padding: 1.75rem 8vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     position: sticky;
     top: 0;
@@ -14,12 +15,14 @@ header {
         z-index: 100;
     }
 
-    button {
+    .menu--button {
         width: 20px;
         height: 15px;
         z-index: 100;
         display: grid;
         place-content: center;
+        background: none;
+        border: none;
     }
 
     nav {

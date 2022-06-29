@@ -20,7 +20,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
     return (
         <header className={`header ${darkMode ? "" : "header--light"}`} id="header">
             <img src={Logo} alt="Instrument's logo" className="logo"/>
-            <button style={{border: "none", background: "none"}} onClick={() => setOpenMenu(!openMenu)}>
+            <button className="menu--button" onClick={() => setOpenMenu(!openMenu)}>
                 <img src={!openMenu ? Menu : Close} alt=""/>
             </button>
             <button onClick={toggleDarkMode}>TEST</button>
