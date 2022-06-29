@@ -13,7 +13,7 @@ const Newsletter = ({ onClick }) => {
                 <button onClick={onClick}><Close className="close"/></button>
             </div>
             <form className="newsletter--form">
-                <input type="email" placeholder="Enter Email Address..."/>
+                <input type="email" placeholder="Enter Email Address..." autoFocus={true}/>
                 <button type="submit">Subscribe<img src={arrow} alt=""/></button>
             </form>
         </section>
