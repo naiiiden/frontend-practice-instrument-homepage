@@ -120,3 +120,21 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .newsletter--modal {
+        .heading--close_btn--container {
+            button {
+                cursor: pointer;
+                transition: .2s;
+
+                &:hover {
+                    border: 1px solid $white;
+                    background: $white;
+                    stroke: #000;
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}

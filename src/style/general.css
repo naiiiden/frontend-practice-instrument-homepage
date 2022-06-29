@@ -1239,6 +1239,21 @@ footer .newsletter--socials--container .socials--container {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .newsletter--modal .heading--close_btn--container button {
+    cursor: pointer;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  .newsletter--modal .heading--close_btn--container button:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    stroke: #000;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+}
+
 .BtnLink--component {
   margin: 24px 0;
   border-radius: 22px;
