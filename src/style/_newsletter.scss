@@ -7,6 +7,18 @@
     left: 0;
     right: 0;
     width: 100%;
+    animation-name: show;
+    animation-duration: .3s;
+    
+    @keyframes show {
+        0% {
+            transform: translate(0%, 100%) matrix(1, 0, 0, 1, 0, 0);
+        }
+
+        100% {
+            transform: translate(0%, 0%) matrix(1, 0, 0, 1, 0, 0);
+        }
+    }
 
     .heading--close_btn--container {
         display: flex;

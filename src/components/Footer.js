@@ -33,7 +33,7 @@ const Footer = () => {
                     <li><a href="https://linkedin.com/company/instrument"><img src={linkedin} alt="link to our linkedin"/></a></li>
                 </ul>
             </div>
-            {openModal === true ? <Newsletter onClick={() => setOpenModal(false)}/> : ""}
+            {openModal === true ? <Newsletter className="test" onClick={() => setOpenModal(false)}/> : ""}
         </footer>
     )
 }
