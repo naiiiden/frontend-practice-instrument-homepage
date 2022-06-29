@@ -15,6 +15,7 @@ header {
         z-index: 100;
         fill: $white;
         transition: .2s;
+        min-width: 110px;
     }
 
     .menu--button {
@@ -92,7 +93,7 @@ header {
         padding: 2.5rem 4vw;
         flex-wrap: nowrap;
         
-        button {
+        .menu--button {
             display: none;
         }
         
@@ -138,13 +139,23 @@ header {
                     }
 
                     &:hover {
-                        &::before {
+                        &::before, &::after {
                             opacity: .5;
 
                         }
+                    }
+                }
+            }
+        }
+    }
 
-                        &::after {
-                            opacity: .5;
+    .header--light {
+        nav {
+            ul {
+                a {
+                    &:hover {
+                        &::before, &::after {
+                            opacity: 1;
                         }
                     }
                 }

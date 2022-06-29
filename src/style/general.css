@@ -70,6 +70,7 @@ header .logo {
   fill: #fff;
   -webkit-transition: .2s;
   transition: .2s;
+  min-width: 110px;
 }
 
 header .menu--button {
@@ -165,7 +166,7 @@ header nav ul a {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-  header button {
+  header .menu--button {
     display: none;
   }
   header nav ul {
@@ -207,11 +208,11 @@ header nav ul a {
     content: "]";
     right: -20px;
   }
-  header nav ul a:hover::before {
+  header nav ul a:hover::before, header nav ul a:hover::after {
     opacity: .5;
   }
-  header nav ul a:hover::after {
-    opacity: .5;
+  .header--light nav ul a:hover::before, .header--light nav ul a:hover::after {
+    opacity: 1;
   }
 }
 
