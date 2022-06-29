@@ -1148,6 +1148,7 @@ footer .newsletter--socials--container .socials--container {
   display: -ms-grid;
   display: grid;
   place-content: center;
+  stroke: #fff;
 }
 
 .newsletter--modal .newsletter--form {
@@ -1224,6 +1225,9 @@ footer .newsletter--socials--container .socials--container {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .newsletter--modal .newsletter--form input {
     width: 70%;

@@ -47,6 +47,7 @@
             height: 44px;
             display: grid;
             place-content: center;
+            stroke: #fff;
         }
     }
 
@@ -105,6 +106,7 @@
         .newsletter--form {
             margin-top: 64px;
             flex-direction: row;
+            align-items: center;
 
             input {
                 width: 70%;
