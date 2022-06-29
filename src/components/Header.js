@@ -2,6 +2,8 @@ import { useState } from "react";
 import { ReactComponent as Logo } from "../images/instrument.svg";
 import { ReactComponent as Menu } from "../images/menu.svg";
 import { ReactComponent as Close } from "../images/close.svg";
+import Dark from "../images/dark.svg";
+import Light from "../images/light.svg";
 
 
 const Header = ({ darkMode, toggleDarkMode }) => {
@@ -20,13 +22,13 @@ const Header = ({ darkMode, toggleDarkMode }) => {
 
     return (
         <header className={`header ${darkMode ? "" : "header--light"}`} id="header">
-            {/* <img src={Logo} alt="Instrument's logo" className="logo"/> */}
-            <Logo className="logo" alt="Instrument's logo"/>
+            <div className="logo--toggle--container">
+                <Logo className="logo" alt="Instrument's logo"/>
+                <button className="theme--toggle--button" onClick={toggleDarkMode} aria-label="toggle light/dark mode"><img src={darkMode ? Light : Dark} alt=""/></button>
+            </div>
             <button className="menu--button" onClick={() => setOpenMenu(!openMenu)}>
-                {/* <img src={!openMenu ? Menu : Close} alt=""/> */}
                 {!openMenu ? <Menu className="menu--icon"/> : <Close className="menu--icon"/>}
             </button>
-            <button onClick={toggleDarkMode}>TEST</button>
             <nav>
                 <ul className={`${openMenu ? "show" : null}`}>
                     <li><a href="https://www.instrument.com/what-we-do">WHAT WE DO</a></li>

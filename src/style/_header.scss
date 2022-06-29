@@ -10,12 +10,24 @@ header {
     background: $black;
     z-index: 99;
 
+    .logo--toggle--container {
+        display: flex;
+        gap: 32px;
+    }
+
     .logo {
         position: relative;
         z-index: 100;
         fill: $white;
         transition: .2s;
         min-width: 110px;
+    }
+
+    .theme--toggle--button {
+        border: none;
+        background: none;
+        width: 20px;
+        height: 20px;
     }
 
     .menu--button {

@@ -64,6 +64,13 @@ header {
   z-index: 99;
 }
 
+header .logo--toggle--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+}
+
 header .logo {
   position: relative;
   z-index: 100;
@@ -71,6 +78,13 @@ header .logo {
   -webkit-transition: .2s;
   transition: .2s;
   min-width: 110px;
+}
+
+header .theme--toggle--button {
+  border: none;
+  background: none;
+  width: 20px;
+  height: 20px;
 }
 
 header .menu--button {
