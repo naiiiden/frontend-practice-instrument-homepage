@@ -13,6 +13,8 @@ header {
     .logo {
         position: relative;
         z-index: 100;
+        fill: $white;
+        transition: .2s;
     }
 
     .menu--button {
@@ -23,6 +25,11 @@ header {
         place-content: center;
         background: none;
         border: none;
+
+        .menu--icon {
+            fill: $white;
+            transition: .2s;
+        }
     }
 
     nav {
@@ -142,6 +149,33 @@ header {
                     }
                 }
             }
+        }
+    }
+}
+
+.header--light {
+    background: $white;
+    transition: .2s;
+
+    .logo {
+        fill: $black;
+        transition: .2s;
+    }
+
+    .menu--button {
+        .menu--icon {
+            fill: $black;
+            transition: .2s;
+        }
+    }
+
+    ul {
+        &.show {
+            background: $white;
+        }
+
+        a {
+            color: $black;
         }
     }
 }

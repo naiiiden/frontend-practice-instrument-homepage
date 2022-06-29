@@ -37,14 +37,6 @@ body {
   background: #fff;
 }
 
-.header--light {
-  background: #fff;
-}
-
-.header--light button {
-  background: red !important;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -75,6 +67,9 @@ header {
 header .logo {
   position: relative;
   z-index: 100;
+  fill: #fff;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 header .menu--button {
@@ -86,6 +81,12 @@ header .menu--button {
   place-content: center;
   background: none;
   border: none;
+}
+
+header .menu--button .menu--icon {
+  fill: #fff;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 header nav {
@@ -212,6 +213,32 @@ header nav ul a {
   header nav ul a:hover::after {
     opacity: .5;
   }
+}
+
+.header--light {
+  background: #fff;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.header--light .logo {
+  fill: #000;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.header--light .menu--button .menu--icon {
+  fill: #000;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.header--light ul.show {
+  background: #fff;
+}
+
+.header--light ul a {
+  color: #000;
 }
 
 main {
