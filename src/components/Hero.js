@@ -7,11 +7,11 @@ import BtnLink from "./Button";
 import Paragraph from "./Paragraph";
 
 
-const Hero = () => {
+const Hero = ({ darkMode }) => {
     new WOW().init();
 
     return (
-        <main className="wow animate__animated animate__fadeIn">
+        <main className={`${darkMode ? "" : "hero--light"} wow animate__animated animate__fadeIn`}>
             <h1>
                 <span>
                     Build.

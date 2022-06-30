@@ -29,7 +29,6 @@ body {
   width: 100%;
   min-height: 100vh;
   background: #000;
-  color: #fff;
   font-family: whyte-book;
 }
 
@@ -289,6 +288,7 @@ main h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #fff;
 }
 
 main h1 span {
@@ -347,6 +347,7 @@ main h1 span img.serve--svg {
 }
 
 main p {
+  color: #fff;
   padding-top: calc(40px + 40*(100vw - 320px)/ 2180);
   max-width: 1080px;
 }
@@ -399,6 +400,18 @@ main .video--player iframe {
   }
 }
 
+.hero--light main {
+  color: #000 !important;
+}
+
+.hero--light main h1 {
+  color: #000 !important;
+}
+
+.hero--light main h1 span {
+  color: #000 !important;
+}
+
 .articles--section {
   margin-top: calc(25px + 65*(100vw - 320px)/ 2180);
   padding: 1.75rem 8vw;
@@ -410,6 +423,7 @@ main .video--player iframe {
   line-height: 1.17;
   letter-spacing: -.04rem;
   word-spacing: 0.02rem;
+  color: #fff;
 }
 
 .articles--section .article--container {
@@ -421,6 +435,10 @@ main .video--player iframe {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.articles--section .article--container p {
+  color: #fff;
 }
 
 .articles--section .article--container img {
@@ -494,6 +512,7 @@ main .video--player iframe {
   letter-spacing: -.04rem;
   word-spacing: 0.02rem;
   line-height: 1.17;
+  color: #fff;
 }
 
 .projects--section .projects--heading--work--container a {
@@ -900,6 +919,7 @@ main .video--player iframe {
   letter-spacing: -0.04rem;
   word-spacing: 0.02rem;
   line-height: 1.17;
+  color: #fff;
 }
 
 @media screen and (min-width: 500px) {
@@ -1210,6 +1230,7 @@ footer .newsletter--socials--container .socials--container {
   font-weight: 400;
   letter-spacing: .8px;
   line-height: 1;
+  color: #fff;
 }
 
 .newsletter--modal .heading--close_btn--container button {
