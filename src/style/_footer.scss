@@ -232,6 +232,10 @@ footer {
 }
 
 .footer--light {
+    .test {
+        background: red !important;
+    }
+
     a {
         color: $black !important;
 

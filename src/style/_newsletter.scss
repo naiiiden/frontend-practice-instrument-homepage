@@ -30,6 +30,10 @@
             align-items: center;
             gap: 12px;
 
+            .at {
+                fill: $white;
+            }
+
             h3 {
                 font-size: 14px;
                 font-family: monument-grotesk-semi-mono;
@@ -48,7 +52,7 @@
             height: 44px;
             display: grid;
             place-content: center;
-            stroke: #fff;
+            stroke: #fff !important;
         }
     }
 
@@ -136,6 +140,27 @@
                     stroke: #000;
                     transition: .2s;
                 }
+            }
+        }
+    }
+}
+
+.newsletter--light {
+    .heading {
+        color: $black !important;
+    }
+
+    .at {
+        fill: $black !important;
+    }
+
+    .heading--close_btn--container {
+        button {
+            stroke: $black;
+
+            &:hover {
+                background: $black;
+                stroke: $white;
             }
         }
     }

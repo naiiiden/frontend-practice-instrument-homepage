@@ -1204,6 +1204,10 @@ footer .newsletter--socials--container .socials--container .social--icon {
   }
 }
 
+.footer--light .test {
+  background: red !important;
+}
+
 .footer--light a {
   color: #000 !important;
 }
@@ -1289,6 +1293,10 @@ footer .newsletter--socials--container .socials--container .social--icon {
   gap: 12px;
 }
 
+.newsletter--modal .heading--close_btn--container .at--heading--container .at {
+  fill: #fff;
+}
+
 .newsletter--modal .heading--close_btn--container .at--heading--container h3 {
   font-size: 14px;
   font-family: monument-grotesk-semi-mono;
@@ -1307,7 +1315,7 @@ footer .newsletter--socials--container .socials--container .social--icon {
   display: -ms-grid;
   display: grid;
   place-content: center;
-  stroke: #fff;
+  stroke: #fff !important;
 }
 
 .newsletter--modal .newsletter--form {
@@ -1412,6 +1420,23 @@ footer .newsletter--socials--container .socials--container .social--icon {
     -webkit-transition: .2s;
     transition: .2s;
   }
+}
+
+.newsletter--light .heading {
+  color: #000 !important;
+}
+
+.newsletter--light .at {
+  fill: #000 !important;
+}
+
+.newsletter--light .heading--close_btn--container button {
+  stroke: #000;
+}
+
+.newsletter--light .heading--close_btn--container button:hover {
+  background: #000;
+  stroke: #fff;
 }
 
 .BtnLink--component {

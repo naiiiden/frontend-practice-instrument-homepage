@@ -6,8 +6,8 @@ import Newsletter from "./Newsletter";
 import { useState } from "react";
 
 
-const Footer = ({ darkMode }) => {
-    const [openModal, setOpenModal] = useState(false);
+const Footer = ({ darkMode, onClick }) => {
+    // const [openModal, setOpenModal] = useState(false);
 
     return (
         <footer className={`${darkMode ? "" : "footer--light"}`}>
@@ -27,14 +27,15 @@ const Footer = ({ darkMode }) => {
                 </ul>
             </nav>
             <div className="newsletter--socials--container">
-                <button onClick={() => setOpenModal(true)}>NEWSLETTER <Arrow__footer className="arrow"/></button>
+                {/* <button onClick={() => setOpenModal(true)}>NEWSLETTER <Arrow__footer className="arrow"/></button> */}
+                <button onClick={onClick}>NEWSLETTER <Arrow__footer className="arrow"/></button>
                 <ul className="socials--container">
                     <li><a href="https://instagram.com/instrument"><Instagram className="social--icon"/></a></li>
                     <li><a href="https://twitter.com/instrument"><Twitter className="social--icon"/></a></li>
                     <li><a href="https://linkedin.com/company/instrument"><Linkedin className="social--icon"/></a></li>
                 </ul>
             </div>
-            {openModal === true ? <Newsletter className="test" onClick={() => setOpenModal(false)}/> : ""}
+            {/* {openModal === true ? <Newsletter className="test" onClick={() => setOpenModal(false)}/> : ""} */}
         </footer>
     )
 }
