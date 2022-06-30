@@ -1046,8 +1046,11 @@ footer .newsletter--socials--container button {
           align-items: center;
 }
 
-footer .newsletter--socials--container button img {
+footer .newsletter--socials--container button .arrow {
   margin-left: 15px;
+  width: 9px;
+  height: 7px;
+  fill: #fff;
 }
 
 footer .newsletter--socials--container .socials--container {
@@ -1057,6 +1060,10 @@ footer .newsletter--socials--container .socials--container {
   display: -ms-flexbox;
   display: flex;
   gap: 32px;
+}
+
+footer .newsletter--socials--container .socials--container .social--icon {
+  fill: #fff;
 }
 
 @media screen and (min-width: 500px) {
@@ -1195,6 +1202,31 @@ footer .newsletter--socials--container .socials--container {
   footer .footer--nav {
     gap: 12.5rem;
   }
+}
+
+.footer--light a {
+  color: #000 !important;
+}
+
+.footer--light a.active::before, .footer--light a.active::after {
+  opacity: 1 !important;
+}
+
+.footer--light a:hover::before, .footer--light a:hover::after {
+  opacity: 1 !important;
+}
+
+.footer--light button {
+  color: #000 !important;
+  border: 1px solid #000 !important;
+}
+
+.footer--light button svg {
+  fill: #000 !important;
+}
+
+.footer--light .social--icon {
+  fill: #000 !important;
 }
 
 .newsletter--modal {

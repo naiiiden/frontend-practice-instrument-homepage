@@ -1,15 +1,16 @@
-import arrow__footer from "../images/arrow__footer.svg";
-import instagram from "../images/instagram.svg";
-import twitter from "../images/twitter.svg";
-import linkedin from "../images/linkedin.svg";
+import { ReactComponent as Arrow__footer } from "../images/arrow__footer.svg";
+import { ReactComponent as Instagram } from "../images/instagram.svg";
+import { ReactComponent as Twitter } from "../images/twitter.svg";
+import { ReactComponent as Linkedin } from "../images/linkedin.svg";
 import Newsletter from "./Newsletter";
 import { useState } from "react";
 
-const Footer = () => {
+
+const Footer = ({ darkMode }) => {
     const [openModal, setOpenModal] = useState(false);
 
     return (
-        <footer>
+        <footer className={`${darkMode ? "" : "footer--light"}`}>
             <nav className="footer--nav">
                 <ul className="footer--nav--ul">
                     <li><a href="#top" className="active">HOME</a></li>
@@ -26,11 +27,11 @@ const Footer = () => {
                 </ul>
             </nav>
             <div className="newsletter--socials--container">
-                <button onClick={() => setOpenModal(true)}>NEWSLETTER <img src={arrow__footer} alt=""/></button>
+                <button onClick={() => setOpenModal(true)}>NEWSLETTER <Arrow__footer className="arrow"/></button>
                 <ul className="socials--container">
-                    <li><a href="https://instagram.com/instrument"><img src={instagram} alt="link to our instagram"/></a></li>
-                    <li><a href="https://twitter.com/instrument"><img src={twitter} alt="link to our twitter"/></a></li>
-                    <li><a href="https://linkedin.com/company/instrument"><img src={linkedin} alt="link to our linkedin"/></a></li>
+                    <li><a href="https://instagram.com/instrument"><Instagram className="social--icon"/></a></li>
+                    <li><a href="https://twitter.com/instrument"><Twitter className="social--icon"/></a></li>
+                    <li><a href="https://linkedin.com/company/instrument"><Linkedin className="social--icon"/></a></li>
                 </ul>
             </div>
             {openModal === true ? <Newsletter className="test" onClick={() => setOpenModal(false)}/> : ""}

@@ -52,9 +52,12 @@ footer {
             line-height: 1.71;
             display: flex;
             align-items: center;
-
-            img {
+            
+            .arrow {
                 margin-left: 15px;
+                width: 9px;
+                height: 7px;
+                fill: $white;
             }
         }
 
@@ -63,6 +66,10 @@ footer {
             list-style-type: none;
             display: flex;
             gap: 32px;
+
+            .social--icon {
+                fill: $white;
+            }
 
         }
     }
@@ -221,5 +228,36 @@ footer {
         .footer--nav {
             gap: 12.5rem;
         }
+    }
+}
+
+.footer--light {
+    a {
+        color: $black !important;
+
+        &.active {
+            &::before, &::after {
+                opacity: 1 !important;
+            }
+        }
+
+        &:hover {
+            &::before, &::after {
+                opacity: 1 !important;
+            }
+        }
+    }
+
+    button {
+        color: $black !important;
+        border: 1px solid $black !important;
+
+        svg {
+            fill: $black !important;
+        }
+    }
+
+    .social--icon {
+        fill: $black !important;
     }
 }
