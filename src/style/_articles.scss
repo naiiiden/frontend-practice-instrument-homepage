@@ -78,3 +78,17 @@
         }
     }
 }
+
+.articles--light {
+    .articles--heading {
+        color: $black;
+    }
+
+    p {
+        color: $black !important;
+    }
+
+    a {
+        border: 1px solid $black;
+    }
+}

@@ -500,6 +500,18 @@ main .video--player iframe {
   }
 }
 
+.articles--light .articles--heading {
+  color: #000;
+}
+
+.articles--light p {
+  color: #000 !important;
+}
+
+.articles--light a {
+  border: 1px solid #000;
+}
+
 .projects--section {
   margin-top: calc(55px + 65*(100vw - 320px)/ 2180);
   padding: 1.75rem 8vw;

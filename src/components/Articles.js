@@ -7,11 +7,11 @@ import BtnLink from "./Button";
 import Paragraph from "./Paragraph";
 
 
-const Articles = () => {
+const Articles = ({ darkMode }) => {
     new WOW().init();
 
     return (
-        <section className="articles--section">
+        <section className={`articles--section ${darkMode ? "" : "articles--light"}`}>
             <h2 className="wow animate__animated animate__fadeIn articles--heading">We enrich human lives through the thoughtful application of design and technology</h2>
             <article className="article--container">
                 <img src={dec2} alt="Instrument's next CEO Kara Place" className="dec--img wow animate__animated animate__fadeIn"/>
