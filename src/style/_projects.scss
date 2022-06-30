@@ -157,3 +157,18 @@
         }
     }
 }
+
+.projects--light {
+    .projects--heading {
+        color: $black !important;
+    }
+
+    a {
+        color: $black !important;
+
+        &.BtnLink--component {
+            border: 1px solid $black;
+        }
+    }
+
+}

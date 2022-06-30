@@ -2,11 +2,11 @@ import "animate.css";
 import WOW from "wow.js";
 import BtnLink from "./Button";
 
-const Projects = () => {
+const Projects = ({ darkMode }) => {
     new WOW().init();
     
     return (
-        <section className="projects--section">
+        <section className={`projects--section ${darkMode ? "" : "projects--light"}`}>
             <div className="projects--heading--work--container wow animate__animated animate__fadeIn" data-wow-offset="200">
                 <h2 className="projects--heading">Explore a few of our most impactful projects</h2>
                 <BtnLink href="https://www.instrument.com/work" text="Our work"/>

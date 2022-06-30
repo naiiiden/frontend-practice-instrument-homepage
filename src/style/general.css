@@ -677,6 +677,18 @@ main .video--player iframe {
   }
 }
 
+.projects--light .projects--heading {
+  color: #000 !important;
+}
+
+.projects--light a {
+  color: #000 !important;
+}
+
+.projects--light a.BtnLink--component {
+  border: 1px solid #000;
+}
+
 .absolute--fix {
   height: 15rem;
 }
