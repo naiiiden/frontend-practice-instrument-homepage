@@ -7,8 +7,6 @@ import { useState } from "react";
 
 
 const Footer = ({ darkMode, onClick }) => {
-    // const [openModal, setOpenModal] = useState(false);
-
     return (
         <footer className={`${darkMode ? "" : "footer--light"}`}>
             <nav className="footer--nav">
@@ -27,7 +25,6 @@ const Footer = ({ darkMode, onClick }) => {
                 </ul>
             </nav>
             <div className="newsletter--socials--container">
-                {/* <button onClick={() => setOpenModal(true)}>NEWSLETTER <Arrow__footer className="arrow"/></button> */}
                 <button onClick={onClick}>NEWSLETTER <Arrow__footer className="arrow"/></button>
                 <ul className="socials--container">
                     <li><a href="https://instagram.com/instrument"><Instagram className="social--icon"/></a></li>
@@ -35,7 +32,6 @@ const Footer = ({ darkMode, onClick }) => {
                     <li><a href="https://linkedin.com/company/instrument"><Linkedin className="social--icon"/></a></li>
                 </ul>
             </div>
-            {/* {openModal === true ? <Newsletter className="test" onClick={() => setOpenModal(false)}/> : ""} */}
         </footer>
     )
 }

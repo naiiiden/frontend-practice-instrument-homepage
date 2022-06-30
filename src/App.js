@@ -24,7 +24,7 @@ const App = () => {
       <Partners darkMode={darkMode}/>
       <Cta darkMode={darkMode}/>
       <Footer darkMode={darkMode} onClick={() => setOpenModal(true)}/>
-      {openModal === true ? <Newsletter darkMode={darkMode} className="test" onClick={() => setOpenModal(false)}/> : ""}
+      {openModal === true ? <Newsletter darkMode={darkMode} onClick={() => setOpenModal(false)}/> : ""}
     </div>
   )
 }

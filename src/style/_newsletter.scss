@@ -52,7 +52,7 @@
             height: 44px;
             display: grid;
             place-content: center;
-            stroke: #fff !important;
+            stroke: #fff;
         }
     }
 
@@ -90,8 +90,9 @@
             line-height: 1.71;
             letter-spacing: .8px;
 
-            img {
+            .arrow {
                 margin-left: 15px;
+                fill: $white;
             }
         }
     }
@@ -146,6 +147,12 @@
 }
 
 .newsletter--light {
+    &.newsletter--modal {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background-color: rgba(194, 194, 194, 0.2) !important;
+    }
+
+
     .heading {
         color: $black !important;
     }
@@ -156,11 +163,32 @@
 
     .heading--close_btn--container {
         button {
+            border: 1px solid $black;
             stroke: $black;
 
             &:hover {
                 background: $black;
                 stroke: $white;
+            }
+        }
+    }
+
+    .newsletter--form {
+        input {
+            color: $black;
+            border-bottom: 1px solid $black;
+
+            &::placeholder {
+                color: $black;
+            }
+        }
+
+        button {
+            color: $black;
+            border: 1px solid $black;
+
+            .arrow {
+                fill: $black;
             }
         }
     }

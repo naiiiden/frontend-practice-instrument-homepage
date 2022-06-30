@@ -1315,7 +1315,7 @@ footer .newsletter--socials--container .socials--container .social--icon {
   display: -ms-grid;
   display: grid;
   place-content: center;
-  stroke: #fff !important;
+  stroke: #fff;
 }
 
 .newsletter--modal .newsletter--form {
@@ -1373,8 +1373,9 @@ footer .newsletter--socials--container .socials--container .social--icon {
   letter-spacing: .8px;
 }
 
-.newsletter--modal .newsletter--form button img {
+.newsletter--modal .newsletter--form button .arrow {
   margin-left: 15px;
+  fill: #fff;
 }
 
 @media screen and (min-width: 500px) {
@@ -1422,6 +1423,12 @@ footer .newsletter--socials--container .socials--container .social--icon {
   }
 }
 
+.newsletter--light.newsletter--modal {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: rgba(194, 194, 194, 0.2) !important;
+}
+
 .newsletter--light .heading {
   color: #000 !important;
 }
@@ -1431,12 +1438,43 @@ footer .newsletter--socials--container .socials--container .social--icon {
 }
 
 .newsletter--light .heading--close_btn--container button {
+  border: 1px solid #000;
   stroke: #000;
 }
 
 .newsletter--light .heading--close_btn--container button:hover {
   background: #000;
   stroke: #fff;
+}
+
+.newsletter--light .newsletter--form input {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.newsletter--light .newsletter--form input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.newsletter--light .newsletter--form input:-ms-input-placeholder {
+  color: #000;
+}
+
+.newsletter--light .newsletter--form input::-ms-input-placeholder {
+  color: #000;
+}
+
+.newsletter--light .newsletter--form input::placeholder {
+  color: #000;
+}
+
+.newsletter--light .newsletter--form button {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.newsletter--light .newsletter--form button .arrow {
+  fill: #000;
 }
 
 .BtnLink--component {
