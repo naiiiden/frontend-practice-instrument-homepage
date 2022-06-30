@@ -1145,6 +1145,9 @@ footer .newsletter--socials--container .socials--container .social--icon {
   footer .newsletter--socials--container .socials--container {
     gap: 48px;
   }
+  .footer--light button {
+    border: 1px solid #000 !important;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -1204,10 +1207,6 @@ footer .newsletter--socials--container .socials--container .social--icon {
   }
 }
 
-.footer--light .test {
-  background: red !important;
-}
-
 .footer--light a {
   color: #000 !important;
 }
@@ -1222,7 +1221,6 @@ footer .newsletter--socials--container .socials--container .social--icon {
 
 .footer--light button {
   color: #000 !important;
-  border: 1px solid #000 !important;
 }
 
 .footer--light button svg {

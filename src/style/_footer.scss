@@ -161,6 +161,12 @@ footer {
             }
         }
     }
+
+    .footer--light {
+        button {
+            border: 1px solid $black !important;
+        }
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -232,10 +238,6 @@ footer {
 }
 
 .footer--light {
-    .test {
-        background: red !important;
-    }
-
     a {
         color: $black !important;
 
@@ -254,7 +256,6 @@ footer {
 
     button {
         color: $black !important;
-        border: 1px solid $black !important;
 
         svg {
             fill: $black !important;
