@@ -38,3 +38,13 @@
         margin-top: 40vh;
     }
 }
+
+.cta--light {
+    .cta--heading {
+        color: $black !important;
+    }
+
+    a {
+        border: 1px solid $black;
+    }
+}
