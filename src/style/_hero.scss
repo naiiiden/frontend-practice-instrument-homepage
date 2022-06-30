@@ -115,16 +115,16 @@ main {
 }
 
 .hero--light {
-    main {
-        color: $black !important;
+    h1 {
+        z-index: 0;
+        color: $black;
+    }
 
-        h1 {
-            color: $black !important;
-        
-            span {
-                color: $black !important;
-            }
-        }
-        
+    p {
+        color: $black;
+    }
+
+    a {
+        border: 1px solid $black;
     }
 }

@@ -400,16 +400,17 @@ main .video--player iframe {
   }
 }
 
-.hero--light main {
-  color: #000 !important;
+.hero--light h1 {
+  z-index: 0;
+  color: #000;
 }
 
-.hero--light main h1 {
-  color: #000 !important;
+.hero--light p {
+  color: #000;
 }
 
-.hero--light main h1 span {
-  color: #000 !important;
+.hero--light a {
+  border: 1px solid #000;
 }
 
 .articles--section {
