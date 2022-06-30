@@ -1,5 +1,5 @@
 import { ReactComponent as At } from "../images/at.svg";
-import { ReactComponent as Arrow__footer } from "../images/arrow__footer.svg";
+import { ReactComponent as ArrowFooter } from "../images/arrow__footer.svg";
 import { ReactComponent as Close } from "../images/newsletter_close.svg";
 
 const Newsletter = ({ onClick, darkMode }) => {
@@ -14,7 +14,7 @@ const Newsletter = ({ onClick, darkMode }) => {
             </div>
             <form className="newsletter--form">
                 <input type="email" placeholder="Enter Email Address..." autoFocus={true}/>
-                <button type="submit">Subscribe<Arrow__footer className="arrow"/></button>
+                <button type="submit">Subscribe<ArrowFooter className="arrow"/></button>
             </form>
         </section>
     )

@@ -1,10 +1,7 @@
-import { ReactComponent as Arrow__footer } from "../images/arrow__footer.svg";
+import { ReactComponent as ArrowFooter } from "../images/arrow__footer.svg";
 import { ReactComponent as Instagram } from "../images/instagram.svg";
 import { ReactComponent as Twitter } from "../images/twitter.svg";
 import { ReactComponent as Linkedin } from "../images/linkedin.svg";
-import Newsletter from "./Newsletter";
-import { useState } from "react";
-
 
 const Footer = ({ darkMode, onClick }) => {
     return (
@@ -25,7 +22,7 @@ const Footer = ({ darkMode, onClick }) => {
                 </ul>
             </nav>
             <div className="newsletter--socials--container">
-                <button onClick={onClick}>NEWSLETTER <Arrow__footer className="arrow"/></button>
+                <button onClick={onClick}>NEWSLETTER <ArrowFooter className="arrow"/></button>
                 <ul className="socials--container">
                     <li><a href="https://instagram.com/instrument"><Instagram className="social--icon"/></a></li>
                     <li><a href="https://twitter.com/instrument"><Twitter className="social--icon"/></a></li>
