@@ -6,15 +6,20 @@ import Projects from "./components/Projects";
 import Partners from "./components/Partners";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Newsletter from "./components/Newsletter";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState(false);
 
-  const toggleDarkMode = () => setDarkMode(prevMode => !prevMode);
-
+  
+  useEffect(() => {
+    localStorage.getItem("theme") === "true" ? setDarkMode(!darkMode) : setDarkMode(darkMode);
+  }, [])
+    
+  const toggleDarkMode = () => (setDarkMode(!darkMode), localStorage.setItem("theme", darkMode));
+  
   return (
     <div className={`App ${darkMode ? "" : "body--light"}`}>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
