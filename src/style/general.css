@@ -626,6 +626,10 @@ main .video--player iframe {
   color: #000 !important;
 }
 
+.projects--light a {
+  color: #000 !important;
+}
+
 .absolute--fix {
   height: 15rem;
 }
