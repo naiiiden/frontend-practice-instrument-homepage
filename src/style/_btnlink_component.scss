@@ -33,7 +33,6 @@
         border: 1px solid $white;
 
         &:hover {
-            // opacity: .6;
             background: transparent;
             color: $white;
             border: 1px solid $white;
@@ -45,4 +44,18 @@
             transition: .2s;
         }
     }
+
+    .btn--light {
+        border: 1px solid $black;
+
+        &:hover {
+            background: $black;
+            color: $white !important;
+
+            .arrow {
+                fill: $white;
+            }
+        }
+    }
 }
+

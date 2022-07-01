@@ -397,10 +397,6 @@ main .video--player iframe {
   color: #000;
 }
 
-.hero--light a {
-  border: 1px solid #000;
-}
-
 .articles--section {
   margin-top: calc(25px + 65*(100vw - 320px)/ 2180);
   padding: 1.75rem 8vw;
@@ -494,10 +490,6 @@ main .video--player iframe {
 
 .articles--light p {
   color: #000 !important;
-}
-
-.articles--light a {
-  border: 1px solid #000;
 }
 
 .projects--section {
@@ -632,14 +624,6 @@ main .video--player iframe {
 
 .projects--light .projects--heading {
   color: #000 !important;
-}
-
-.projects--light a {
-  color: #000 !important;
-}
-
-.projects--light a.BtnLink--component {
-  border: 1px solid #000;
 }
 
 .absolute--fix {
@@ -936,10 +920,6 @@ main .video--player iframe {
 
 .cta--light .cta--heading {
   color: #000 !important;
-}
-
-.cta--light a {
-  border: 1px solid #000;
 }
 
 footer {
@@ -1479,6 +1459,16 @@ footer .newsletter--socials--container .socials--container .social--icon {
     transition: .2s;
   }
   .BtnLink--component:hover .arrow {
+    fill: #fff;
+  }
+  .btn--light {
+    border: 1px solid #000;
+  }
+  .btn--light:hover {
+    background: #000;
+    color: #fff !important;
+  }
+  .btn--light:hover .arrow {
     fill: #fff;
   }
 }

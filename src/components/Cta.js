@@ -8,7 +8,7 @@ const Cta = ({ darkMode }) => {
     return (
         <section className={`cta--section wow animate__animated animate__fadeIn ${darkMode ? "" : "cta--light"}`}>
             <h2 className="cta--heading">We’d love to be your partner</h2>
-            <BtnLink href="https://www.instrument.com/contact" text="Get in touch"/>
+            <BtnLink href="https://www.instrument.com/contact" text="Get in touch" className={`${darkMode ? "" : "btn--light"}`}/>
         </section>
     )
 }

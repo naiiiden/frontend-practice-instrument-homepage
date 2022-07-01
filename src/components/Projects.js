@@ -9,7 +9,7 @@ const Projects = ({ darkMode }) => {
         <section className={`projects--section ${darkMode ? "" : "projects--light"}`}>
             <div className="projects--heading--work--container wow animate__animated animate__fadeIn" data-wow-offset="200">
                 <h2 className="projects--heading">Explore a few of our most impactful projects</h2>
-                <BtnLink href="https://www.instrument.com/work" text="Our work"/>
+                <BtnLink href="https://www.instrument.com/work" text="Our work" className={`${darkMode ? "" : "btn--light"}`}/>
             </div>
             <div className="projects--works--container wow animate__animated animate__fadeIn" data-wow-offset="300">
                 <a className="projects--work" href="https://www.instrument.com/work/eames-institute">

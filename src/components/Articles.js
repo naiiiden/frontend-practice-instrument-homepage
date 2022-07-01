@@ -17,21 +17,21 @@ const Articles = ({ darkMode }) => {
                 <img src={dec2} alt="Instrument's next CEO Kara Place" className="dec--img wow animate__animated animate__fadeIn"/>
                 <div className="article--text--container wow animate__animated animate__fadeIn" data-wow-delay=".35s">
                     <Paragraph text="It is with great excitement that we announce Kara Place as Instrument’s next CEO."/>
-                    <BtnLink href="https://www.instrument.com/articles/kara-place-ceo" text="Read More"/>
+                    <BtnLink href="https://www.instrument.com/articles/kara-place-ceo" text="Read More" className={`${darkMode ? "" : "btn--light"}`}/>
                 </div>
             </article>
             <article className="article--container reverse">
                 <img src={dec4} alt="" className="dec--img wow animate__animated animate__fadeIn"/>
                 <div className="article--text--container wow animate__animated animate__fadeIn" data-wow-delay=".35s">
                     <Paragraph text="In the summer of 2020, we reported our representation data and committed to doing so annually. One year later, we are pleased to share an update on our goals, our progress, and the work that still needs to be done."/>
-                    <BtnLink href="https://www.instrument.com/edi" text="Learn More"/>
+                    <BtnLink href="https://www.instrument.com/edi" text="Learn More" className={`${darkMode ? "" : "btn--light"}`}/>
                 </div>
             </article>
             <article className="article--container">
                 <img src={dec5} alt="" className="dec--img wow animate__animated animate__fadeIn"/>
                 <div className="article--text--container wow animate__animated animate__fadeIn" data-wow-delay=".35s">
                     <Paragraph text="As a full-service partner to the world’s most ambitious companies, we create transformational change through best-in-class digital products and communications."/>
-                    <BtnLink href="https://www.instrument.com/what-we-do" text="What we do"/>
+                    <BtnLink href="https://www.instrument.com/what-we-do" text="What we do" className={`${darkMode ? "" : "btn--light"}`}/>
                 </div>
             </article>
         </section>
