@@ -27,12 +27,21 @@
 @media screen and (min-width: 1024px) {
     .BtnLink--component {
         padding: 0 32px;
-        height: 54px;
+        height: 53px;
         border-radius: 27px;
         transition: .2s;
+        border: 1px solid $white;
 
         &:hover {
-            opacity: .6;
+            // opacity: .6;
+            background: transparent;
+            color: $white;
+            border: 1px solid $white;
+            
+            .arrow {
+                fill: $white;
+            }
+
             transition: .2s;
         }
     }

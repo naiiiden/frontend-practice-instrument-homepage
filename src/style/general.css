@@ -388,18 +388,6 @@ main .video--player iframe {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  main a {
-    -webkit-transition: .2s;
-    transition: .2s;
-  }
-  main a:hover {
-    opacity: .6;
-    -webkit-transition: .2s;
-    transition: .2s;
-  }
-}
-
 .hero--light h1 {
   z-index: 0;
   color: #000;
@@ -528,28 +516,6 @@ main .video--player iframe {
   color: #fff;
 }
 
-.projects--section .projects--heading--work--container a {
-  margin: 24px 0;
-  border-radius: 22px;
-  height: 44px;
-  padding: 0 24px;
-  background: #fff;
-  font-family: monument-grotesk-semi-mono;
-  font-size: 14px;
-  color: #000;
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 15px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .projects--section .projects--works--container {
   padding-top: calc(40px + 120*(100vw - 320px)/ 2180);
 }
@@ -639,19 +605,6 @@ main .video--player iframe {
 @media screen and (min-width: 1024px) {
   .projects--section .projects--heading--work--container {
     max-width: 750px;
-  }
-  .projects--section .projects--heading--work--container a {
-    margin-bottom: 0;
-    padding: 0 32px;
-    height: 54px;
-    border-radius: 27px;
-    -webkit-transition: .2s;
-    transition: .2s;
-  }
-  .projects--section .projects--heading--work--container a:hover {
-    opacity: .6;
-    -webkit-transition: .2s;
-    transition: .2s;
   }
   .projects--section .projects--works--container {
     padding-top: calc(120*(100vw - 320px)/ 2180);
@@ -1510,15 +1463,21 @@ footer .newsletter--socials--container .socials--container .social--icon {
 @media screen and (min-width: 1024px) {
   .BtnLink--component {
     padding: 0 32px;
-    height: 54px;
+    height: 53px;
     border-radius: 27px;
     -webkit-transition: .2s;
     transition: .2s;
+    border: 1px solid #fff;
   }
   .BtnLink--component:hover {
-    opacity: .6;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
     -webkit-transition: .2s;
     transition: .2s;
+  }
+  .BtnLink--component:hover .arrow {
+    fill: #fff;
   }
 }
 

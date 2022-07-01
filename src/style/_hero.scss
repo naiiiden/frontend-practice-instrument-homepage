@@ -101,19 +101,6 @@ main {
     }
 }
 
-@media screen and (min-width: 1024px) {
-    main {
-        a {
-            transition: .2s;
-
-            &:hover {
-                opacity: .6;
-                transition: .2s;
-            }
-        }
-    }
-}
-
 .hero--light {
     h1 {
         z-index: 0;

@@ -1,8 +1,9 @@
-import arrow from "../images/arrow.svg"; 
+// import arrow from "../images/arrow.svg"; 
+import { ReactComponent as Arrow } from "../images/arrow.svg";
 
 const BtnLink = ({ href, text }) => {
     return (
-        <a href={href} className="BtnLink--component">{text} <img src={arrow} alt=""/></a>
+        <a href={href} className="BtnLink--component">{text} <Arrow className="arrow"/></a>
     )
 }
 
