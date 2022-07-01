@@ -1148,9 +1148,11 @@ footer .newsletter--socials--container .socials--container .social--icon {
     transition: .2s;
   }
   footer .newsletter--socials--container button:hover {
-    opacity: .6;
-    -webkit-transition: .2s;
-    transition: .2s;
+    background: #fff;
+    color: #000;
+  }
+  footer .newsletter--socials--container button:hover .arrow {
+    fill: #000;
   }
 }
 

@@ -221,8 +221,12 @@ footer {
                 transition: .2s;
 
                 &:hover {
-                    opacity: .6;
-                    transition: .2s;
+                    background: $white;
+                    color: $black;
+
+                    .arrow {
+                        fill: $black;
+                    }
                 }
             }
         }
