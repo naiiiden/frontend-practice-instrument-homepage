@@ -1162,6 +1162,15 @@ footer .newsletter--socials--container .socials--container .social--icon {
   fill: #000 !important;
 }
 
+.footer--light button:hover {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.footer--light button:hover svg {
+  fill: #fff !important;
+}
+
 .footer--light .social--icon {
   fill: #000 !important;
 }

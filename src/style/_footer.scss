@@ -264,6 +264,16 @@ footer {
         svg {
             fill: $black !important;
         }
+
+        &:hover {
+            background: $black !important;
+            color: $white !important;
+
+            svg {
+                fill: $white !important;
+            }
+        }
+
     }
 
     .social--icon {
