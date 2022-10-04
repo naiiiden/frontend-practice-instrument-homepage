@@ -209,18 +209,18 @@ header nav ul a {
   color: #000;
 }
 
-main {
+.main {
   margin-top: calc(130px + 120 * (100vw - 320px) / 2180);
   padding: 1.75rem 8vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-main h1 {
+.main h1 {
   display: flex;
   color: #fff;
 }
-main h1 span {
+.main h1 span {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -234,7 +234,7 @@ main h1 span {
   line-height: 1.1;
   letter-spacing: -0.025rem;
 }
-main h1 span img {
+.main h1 span img {
   position: absolute;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -242,32 +242,32 @@ main h1 span img {
           user-select: none;
   pointer-events: none;
 }
-main h1 span img.build--svg {
+.main h1 span img.build--svg {
   bottom: 1rem;
   bottom: 0;
   left: 0;
   display: block;
   transform: translate3d(-5%, -80%, 15%);
 }
-main h1 span img.grow--svg {
+.main h1 span img.grow--svg {
   bottom: 0;
   left: 0;
   display: block;
   transform: translate3d(-8%, 25%, 0);
 }
-main h1 span img.serve--svg {
+.main h1 span img.serve--svg {
   bottom: 1rem;
   bottom: 0;
   left: 0;
   display: block;
   transform: translate3d(-5%, -35%, 15%);
 }
-main p {
+.main p {
   color: #fff;
   padding-top: calc(40px + 40 * (100vw - 320px) / 2180);
   max-width: 1080px;
 }
-main .video--player {
+.main .video--player {
   z-index: 0;
   margin: calc(55px + 65 * (100vw - 320px) / 2180) auto 0 auto;
   width: 100%;
@@ -275,7 +275,7 @@ main .video--player {
   height: 56.25vw;
   position: relative;
 }
-main .video--player iframe {
+.main .video--player iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -284,18 +284,18 @@ main .video--player iframe {
 }
 
 @media screen and (min-width: 500px) {
-  main {
+  .main {
     padding: 2.125rem 4vw;
   }
-  main h1 span {
+  .main h1 span {
     font-size: clamp(48px, 8vw, 132px);
   }
-  main p {
+  .main p {
     max-width: 500px;
   }
 }
 @media screen and (min-width: 768px) {
-  main p {
+  .main p {
     max-width: unset;
     padding-right: 32vw;
   }

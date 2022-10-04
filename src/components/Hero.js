@@ -11,7 +11,7 @@ const Hero = ({ darkMode }) => {
     new WOW().init();
 
     return (
-        <main className={`${darkMode ? "" : "hero--light"} wow animate__animated animate__fadeIn`}>
+        <div className={`main ${darkMode ? "" : "hero--light"} wow animate__animated animate__fadeIn`}>
             <h1>
                 <span>
                     Build.
@@ -31,7 +31,7 @@ const Hero = ({ darkMode }) => {
             <div className="video--player wow animate__animated animate__fadeIn" data-wow-offset="400">
                 <iframe src="https://player.vimeo.com/video/428281636?h=be0963aaa9?autoplay=1&muted=1" frameBorder={0} allow="autoplay; fullscreen;" title="Instrument's 2021 Showcase Reel"></iframe>
             </div>
-        </main>
+        </div>
     )
 }
 

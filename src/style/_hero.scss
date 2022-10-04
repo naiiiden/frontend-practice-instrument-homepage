@@ -1,4 +1,4 @@
-main {
+.main {
     margin-top: calc(130px + 120*(100vw - 320px)/ 2180);
     padding: 1.75rem 8vw;
     display: flex;
@@ -77,7 +77,7 @@ main {
 }
 
 @media screen and (min-width: 500px) {
-    main {
+    .main {
         padding: 2.125rem 4vw;
 
         h1 {
@@ -93,7 +93,7 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-    main {
+    .main {
         p {
             max-width: unset;
             padding-right: 32vw;
