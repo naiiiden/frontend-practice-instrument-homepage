@@ -29,7 +29,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             <button className="menu--button" onClick={() => setOpenMenu(!openMenu)}>
                 {!openMenu ? <Menu className="menu--icon"/> : <Close className="menu--icon"/>}
             </button>
-            <nav>
+            <nav aria-label="Header">
                 <ul className={`${openMenu ? "show" : null}`}>
                     <li><a href="https://www.instrument.com/what-we-do">WHAT WE DO</a></li>
                     <li className="mobile--only"><a href="https://www.instrument.com/work">WORK</a></li>
