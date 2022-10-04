@@ -23,11 +23,13 @@ const App = () => {
   return (
     <div className={`App ${darkMode ? "" : "body--light"}`}>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
-      <Hero darkMode={darkMode}/>
-      <Articles darkMode={darkMode}/>
-      <Projects darkMode={darkMode}/>
-      <Partners darkMode={darkMode}/>
-      <Cta darkMode={darkMode}/>
+      <main>
+        <Hero darkMode={darkMode}/>
+        <Articles darkMode={darkMode}/>
+        <Projects darkMode={darkMode}/>
+        <Partners darkMode={darkMode}/>
+        <Cta darkMode={darkMode}/>
+      </main>
       <Footer darkMode={darkMode} onClick={() => setOpenModal(true)}/>
       {openModal === true ? <Newsletter darkMode={darkMode} onClick={() => setOpenModal(false)}/> : ""}
     </div>
