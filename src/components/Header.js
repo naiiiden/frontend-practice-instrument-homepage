@@ -24,7 +24,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
         <header className={`header ${darkMode ? "" : "header--light"}`} id="header">
             <div className="logo--toggle--container">
                 <Logo className="logo" alt="Instrument's logo"/>
-                <button className="theme--toggle--button" onClick={toggleDarkMode} aria-label="toggle light/dark mode"><img src={darkMode ? Light : Dark} alt=""/></button>
+                <button className="theme--toggle--button" onClick={toggleDarkMode} aria-label={`Toggle ${darkMode ? "light" : "dark"} mode`} aria-live="polite"><img src={darkMode ? Light : Dark} alt=""/></button>
             </div>
             <button className="menu--button" onClick={() => setOpenMenu(!openMenu)}>
                 {!openMenu ? <Menu className="menu--icon"/> : <Close className="menu--icon"/>}
