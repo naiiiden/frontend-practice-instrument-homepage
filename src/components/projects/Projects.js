@@ -1,6 +1,6 @@
 import "animate.css";
 import WOW from "wow.js";
-import BtnLink from "./Button";
+import BtnLink from "../Button";
 
 const Projects = ({ darkMode }) => {
     new WOW().init();

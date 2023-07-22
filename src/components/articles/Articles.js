@@ -1,10 +1,10 @@
-import dec2 from "../images/dec2.jpg";
-import dec4 from "../images/dec4.png";
-import dec5 from "../images/dec5.jpg";
+import dec2 from "../../images/dec2.jpg";
+import dec4 from "../../images/dec4.png";
+import dec5 from "../../images/dec5.jpg";
 import "animate.css";
 import WOW from "wow.js";
-import BtnLink from "./Button";
-import Paragraph from "./Paragraph";
+import BtnLink from "../Button";
+import Paragraph from "../Paragraph";
 
 
 const Articles = ({ darkMode }) => {

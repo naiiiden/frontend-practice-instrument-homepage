@@ -1,10 +1,10 @@
-import Build from "../images/build.svg";
-import Grow from "../images/grow.svg";
-import Serve from "../images/serve.svg";
+import Build from "../../images/build.svg";
+import Grow from "../../images/grow.svg";
+import Serve from "../../images/serve.svg";
 import "animate.css";
 import WOW from "wow.js";
-import BtnLink from "./Button";
-import Paragraph from "./Paragraph";
+import BtnLink from "../Button";
+import Paragraph from "../Paragraph";
 
 
 const Hero = ({ darkMode }) => {
