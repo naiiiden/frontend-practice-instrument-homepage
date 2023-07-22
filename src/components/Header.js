@@ -30,13 +30,13 @@ const Header = ({ darkMode, toggleDarkMode }) => {
                 {!openMenu ? <Menu className="menu--icon"/> : <Close className="menu--icon"/>}
             </button>
             <nav aria-label="Header">
-                <ul className={`${openMenu ? "show" : null}`}>
-                    <li><a href="https://www.instrument.com/what-we-do" className="uppercase">What we do</a></li>
-                    <li className="mobile--only"><a href="https://www.instrument.com/work" className="uppercase">Work</a></li>
-                    <li><a href="https://www.instrument.com/who-we-are" className="uppercase">Who we are</a></li>
-                    <li><a href="https://www.instrument.com/being-here" className="uppercase">Being here</a></li>
-                    <li><a href="https://www.instrument.com/careers" className="uppercase">Careers</a></li>
-                    <li className="mobile--only"><a href="https://www.instrument.com/contact" className="uppercase">Contact</a></li>
+                <ul className={`${openMenu ? "show" : null} uppercase`}>
+                    <li><a href="https://www.instrument.com/what-we-do">What we do</a></li>
+                    <li className="mobile--only"><a href="https://www.instrument.com/work">Work</a></li>
+                    <li><a href="https://www.instrument.com/who-we-are">Who we are</a></li>
+                    <li><a href="https://www.instrument.com/being-here">Being here</a></li>
+                    <li><a href="https://www.instrument.com/careers">Careers</a></li>
+                    <li className="mobile--only"><a href="https://www.instrument.com/contact">Contact</a></li>
                 </ul>
             </nav>
         </header>

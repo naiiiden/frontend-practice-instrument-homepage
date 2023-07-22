@@ -13,11 +13,12 @@ const App = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState(false);
 
-  
   useEffect(() => {
     localStorage.getItem("theme") === "true" ? setDarkMode(!darkMode) : setDarkMode(darkMode);
+    // eslint-disable-next-line
   }, [])
-    
+
+  // eslint-disable-next-line
   const toggleDarkMode = () => (setDarkMode(!darkMode), localStorage.setItem("theme", darkMode));
   
   return (
