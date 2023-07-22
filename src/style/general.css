@@ -42,7 +42,6 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   transition: top 0.2s;
@@ -101,19 +100,9 @@ header nav ul.show {
   height: 100vh;
   width: 100%;
   z-index: 99;
-  -webkit-animation-name: opacity;
-          animation-name: opacity;
-  -webkit-animation-duration: 0.2s;
-          animation-duration: 0.2s;
+  animation-name: opacity;
+  animation-duration: 0.2s;
   background: #000;
-}
-@-webkit-keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 @keyframes opacity {
   0% {
@@ -225,7 +214,6 @@ header nav ul a {
   flex-direction: column;
   position: relative;
   z-index: -1;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   font-size: 9.5vw;
@@ -238,7 +226,6 @@ header nav ul a {
   position: absolute;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   pointer-events: none;
 }
@@ -281,6 +268,7 @@ header nav ul a {
   left: 0;
   height: 100%;
   width: 100%;
+  border: 0;
 }
 
 @media screen and (min-width: 500px) {
@@ -512,140 +500,85 @@ header nav ul a {
   position: absolute;
   top: 0;
   opacity: 0;
-  -webkit-animation: display 13.5s infinite;
-          animation: display 13.5s infinite;
+  animation: display 13.5s infinite;
 }
 .partners--container .row img.imgrow2 {
-  -webkit-animation: display 13.65s infinite;
-          animation: display 13.65s infinite;
+  animation: display 13.65s infinite;
 }
 .partners--container .row img.imgrow3 {
-  -webkit-animation: display 13.8s infinite;
-          animation: display 13.8s infinite;
+  animation: display 13.8s infinite;
 }
 .partners--container .row img.img11 {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 .partners--container .row img.img12 {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation-delay: 3s;
 }
 .partners--container .row img.img13 {
-  -webkit-animation-delay: 4.5s;
-          animation-delay: 4.5s;
+  animation-delay: 4.5s;
 }
 .partners--container .row img.img14 {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  animation-delay: 6s;
 }
 .partners--container .row img.img15 {
-  -webkit-animation-delay: 7.5s;
-          animation-delay: 7.5s;
+  animation-delay: 7.5s;
 }
 .partners--container .row img.img16 {
-  -webkit-animation-delay: 9s;
-          animation-delay: 9s;
+  animation-delay: 9s;
 }
 .partners--container .row img.img17 {
-  -webkit-animation-delay: 10.5s;
-          animation-delay: 10.5s;
+  animation-delay: 10.5s;
 }
 .partners--container .row img.img18 {
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  animation-delay: 12s;
 }
 .partners--container .row img.img21 {
-  -webkit-animation-delay: 1.7s;
-          animation-delay: 1.7s;
+  animation-delay: 1.7s;
 }
 .partners--container .row img.img22 {
-  -webkit-animation-delay: 3.2s;
-          animation-delay: 3.2s;
+  animation-delay: 3.2s;
 }
 .partners--container .row img.img23 {
-  -webkit-animation-delay: 4.7s;
-          animation-delay: 4.7s;
+  animation-delay: 4.7s;
 }
 .partners--container .row img.img24 {
-  -webkit-animation-delay: 6.2s;
-          animation-delay: 6.2s;
+  animation-delay: 6.2s;
 }
 .partners--container .row img.img25 {
-  -webkit-animation-delay: 7.7s;
-          animation-delay: 7.7s;
+  animation-delay: 7.7s;
 }
 .partners--container .row img.img26 {
-  -webkit-animation-delay: 9.2s;
-          animation-delay: 9.2s;
+  animation-delay: 9.2s;
 }
 .partners--container .row img.img27 {
-  -webkit-animation-delay: 10.7s;
-          animation-delay: 10.7s;
+  animation-delay: 10.7s;
 }
 .partners--container .row img.img28 {
-  -webkit-animation-delay: 12.2s;
-          animation-delay: 12.2s;
+  animation-delay: 12.2s;
 }
 .partners--container .row img.img31 {
-  -webkit-animation-delay: 1.9s;
-          animation-delay: 1.9s;
+  animation-delay: 1.9s;
 }
 .partners--container .row img.img32 {
-  -webkit-animation-delay: 3.4s;
-          animation-delay: 3.4s;
+  animation-delay: 3.4s;
 }
 .partners--container .row img.img33 {
-  -webkit-animation-delay: 4.9s;
-          animation-delay: 4.9s;
+  animation-delay: 4.9s;
 }
 .partners--container .row img.img34 {
-  -webkit-animation-delay: 6.4s;
-          animation-delay: 6.4s;
+  animation-delay: 6.4s;
 }
 .partners--container .row img.img35 {
-  -webkit-animation-delay: 7.9s;
-          animation-delay: 7.9s;
+  animation-delay: 7.9s;
 }
 .partners--container .row img.img36 {
-  -webkit-animation-delay: 9.4s;
-          animation-delay: 9.4s;
+  animation-delay: 9.4s;
 }
 .partners--container .row img.img37 {
-  -webkit-animation-delay: 10.9s;
-          animation-delay: 10.9s;
+  animation-delay: 10.9s;
 }
 .partners--container .row img.img38 {
-  -webkit-animation-delay: 12.4s;
-          animation-delay: 12.4s;
-}
-
-@-webkit-keyframes display {
-  0% {
-    transform: translateY(-40px);
-    opacity: 0;
-  }
-  7.5% {
-    transform: translateY(0);
-  }
-  10% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  17.5% {
-    transform: translateY(-40px);
-    opacity: 0;
-  }
-  20% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
+  animation-delay: 12.4s;
 }
 
 @keyframes display {
@@ -840,7 +773,7 @@ footer .newsletter--socials--container .socials--container .social--icon {
   }
   footer .newsletter--socials--container button {
     margin-bottom: 2rem;
-    border: 1px solid hsla(0deg, 0%, 100%, 0.25);
+    border: 1px solid hsla(0, 0%, 100%, 0.25);
     border-radius: 22px;
     height: 44px;
     padding: 0 24px;
@@ -930,25 +863,15 @@ footer .newsletter--socials--container .socials--container .social--icon {
 .newsletter--modal {
   padding: 1.5rem 8vw;
   position: fixed;
-  background-color: hsla(0deg, 0%, 100%, 0.1);
+  background-color: hsla(0, 0%, 100%, 0.1);
   -webkit-backdrop-filter: blur(1vw);
           backdrop-filter: blur(1vw);
   bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
-  -webkit-animation-name: show;
-          animation-name: show;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-}
-@-webkit-keyframes show {
-  0% {
-    transform: translate(0%, 100%) matrix(1, 0, 0, 1, 0, 0);
-  }
-  100% {
-    transform: translate(0%, 0%) matrix(1, 0, 0, 1, 0, 0);
-  }
+  animation-name: show;
+  animation-duration: 0.3s;
 }
 @keyframes show {
   0% {
@@ -982,7 +905,7 @@ footer .newsletter--socials--container .socials--container .social--icon {
 .newsletter--modal .heading--close_btn--container button {
   background: transparent;
   border-radius: 100%;
-  border: 1px solid hsla(0deg, 0%, 100%, 0.25);
+  border: 1px solid hsla(0, 0%, 100%, 0.25);
   width: 44px;
   height: 44px;
   display: grid;
@@ -1008,16 +931,13 @@ footer .newsletter--socials--container .socials--container .social--icon {
 .newsletter--modal .newsletter--form input::-moz-placeholder {
   color: #fff;
 }
-.newsletter--modal .newsletter--form input:-ms-input-placeholder {
-  color: #fff;
-}
 .newsletter--modal .newsletter--form input::placeholder {
   color: #fff;
 }
 .newsletter--modal .newsletter--form button {
   margin-top: 6vw;
   color: #fff;
-  border: 1px solid hsla(0deg, 0%, 100%, 0.25);
+  border: 1px solid hsla(0, 0%, 100%, 0.25);
   background: transparent;
   border-radius: 22px;
   height: 44px;
@@ -1092,9 +1012,6 @@ footer .newsletter--socials--container .socials--container .social--icon {
 .newsletter--light .newsletter--form input::-moz-placeholder {
   color: #000;
 }
-.newsletter--light .newsletter--form input:-ms-input-placeholder {
-  color: #000;
-}
 .newsletter--light .newsletter--form input::placeholder {
   color: #000;
 }
@@ -1119,7 +1036,6 @@ footer .newsletter--socials--container .socials--container .social--icon {
   display: flex;
   align-items: center;
   gap: 15px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
