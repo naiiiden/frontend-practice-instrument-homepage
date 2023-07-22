@@ -1,13 +1,13 @@
 import "./style/general.css";
-import Header from "./components/Header";
+import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Articles from "./components/articles/Articles";
 import Projects from "./components/projects/Projects";
 import Partners from "./components/partners/Partners";
 import Cta from "./components/callToAction/Cta";
-import Footer from "./components/Footer";
+import Footer from "./components/footer/Footer";
 import { useEffect, useState } from "react";
-import Newsletter from "./components/Newsletter";
+import Newsletter from "./components/newsletter/Newsletter";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true);

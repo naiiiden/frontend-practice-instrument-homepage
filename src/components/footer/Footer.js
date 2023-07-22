@@ -1,7 +1,7 @@
-import { ReactComponent as ArrowFooter } from "../images/arrow__footer.svg";
-import { ReactComponent as Instagram } from "../images/instagram.svg";
-import { ReactComponent as Twitter } from "../images/twitter.svg";
-import { ReactComponent as Linkedin } from "../images/linkedin.svg";
+import { ReactComponent as ArrowFooter } from "../../images/arrow__footer.svg";
+import { ReactComponent as Instagram } from "../../images/instagram.svg";
+import { ReactComponent as Twitter } from "../../images/twitter.svg";
+import { ReactComponent as Linkedin } from "../../images/linkedin.svg";
 
 const Footer = ({ darkMode, onClick }) => {
     return (

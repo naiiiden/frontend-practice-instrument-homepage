@@ -1,6 +1,6 @@
-import { ReactComponent as At } from "../images/at.svg";
-import { ReactComponent as ArrowFooter } from "../images/arrow__footer.svg";
-import { ReactComponent as Close } from "../images/newsletter_close.svg";
+import { ReactComponent as At } from "../../images/at.svg";
+import { ReactComponent as ArrowFooter } from "../../images/arrow__footer.svg";
+import { ReactComponent as Close } from "../../images/newsletter_close.svg";
 
 const Newsletter = ({ onClick, darkMode }) => {
     return (

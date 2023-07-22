@@ -49,13 +49,13 @@ img {
     text-transform: uppercase
 }
 
-@import "./header";
-@import "./hero";
-@import "./articles";
-@import "./projects";
-@import "./partners";
-@import "./cta";
-@import "./footer";
-@import "./newsletter";
+@import "../components/header/header";
+@import "../components/hero/hero";
+@import "../components/articles/articles";
+@import "../components/projects/projects";
+@import "../components/partners/partners";
+@import "../components/callToAction/cta";
+@import "../components/footer/footer";
+@import "../components/newsletter/newsletter";
 @import '../components/shared/button/btnlink_component';
 @import '../components/shared/paragraph/paragraph';

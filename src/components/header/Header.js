@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { ReactComponent as Logo } from "../images/instrument.svg";
-import { ReactComponent as Menu } from "../images/menu.svg";
-import { ReactComponent as Close } from "../images/close.svg";
-import Dark from "../images/dark.svg";
-import Light from "../images/light.svg";
+import { ReactComponent as Logo } from "../../images/instrument.svg";
+import { ReactComponent as Menu } from "../../images/menu.svg";
+import { ReactComponent as Close } from "../../images/close.svg";
+import Dark from "../../images/dark.svg";
+import Light from "../../images/light.svg";
 
 
 const Header = ({ darkMode, toggleDarkMode }) => {
