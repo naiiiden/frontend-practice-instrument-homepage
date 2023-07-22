@@ -9,16 +9,16 @@ import Light from "../images/light.svg";
 const Header = ({ darkMode, toggleDarkMode }) => {
     const [openMenu, setOpenMenu] = useState(false);
 
-    {var prevScrollpos = window.pageYOffset;
+    var prevScrollpos = window.screenY;
         window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
+        var currentScrollPos = window.scrollY;
         if (prevScrollpos > currentScrollPos) {
             document.querySelector(".header").style.top = "0";
         } else {
             document.querySelector(".header").style.top = "-110px";
         }
         prevScrollpos = currentScrollPos;
-    }}
+    }
 
     return (
         <header className={`header ${darkMode ? "" : "header--light"}`} id="header">
@@ -31,12 +31,12 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             </button>
             <nav aria-label="Header">
                 <ul className={`${openMenu ? "show" : null}`}>
-                    <li><a href="https://www.instrument.com/what-we-do">WHAT WE DO</a></li>
-                    <li className="mobile--only"><a href="https://www.instrument.com/work">WORK</a></li>
-                    <li><a href="https://www.instrument.com/who-we-are">WHO WE ARE</a></li>
-                    <li><a href="https://www.instrument.com/being-here">BEING HERE</a></li>
-                    <li><a href="https://www.instrument.com/careers">CAREERS</a></li>
-                    <li className="mobile--only"><a href="https://www.instrument.com/contact">CONTACT</a></li>
+                    <li><a href="https://www.instrument.com/what-we-do" className="uppercase">What we do</a></li>
+                    <li className="mobile--only"><a href="https://www.instrument.com/work" className="uppercase">Work</a></li>
+                    <li><a href="https://www.instrument.com/who-we-are" className="uppercase">Who we are</a></li>
+                    <li><a href="https://www.instrument.com/being-here" className="uppercase">Being here</a></li>
+                    <li><a href="https://www.instrument.com/careers" className="uppercase">Careers</a></li>
+                    <li className="mobile--only"><a href="https://www.instrument.com/contact" className="uppercase">Contact</a></li>
                 </ul>
             </nav>
         </header>

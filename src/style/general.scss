@@ -33,7 +33,6 @@ body {
     width: 100%;
     min-height: 100vh;
     background: $black;
-    // color: $white;
     font-family: whyte-book;
 }
 
@@ -44,6 +43,10 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.uppercase {
+    text-transform: uppercase
 }
 
 @import "./header";
