@@ -3,8 +3,8 @@ import dec4 from "../../images/dec4.png";
 import dec5 from "../../images/dec5.jpg";
 import "animate.css";
 import WOW from "wow.js";
-import BtnLink from "../Button";
-import Paragraph from "../Paragraph";
+import BtnLink from "../shared/button/Button";
+import Paragraph from "../shared/paragraph/Paragraph";
 
 
 const Articles = ({ darkMode }) => {

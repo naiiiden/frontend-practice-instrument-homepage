@@ -3,8 +3,8 @@ import Grow from "../../images/grow.svg";
 import Serve from "../../images/serve.svg";
 import "animate.css";
 import WOW from "wow.js";
-import BtnLink from "../Button";
-import Paragraph from "../Paragraph";
+import BtnLink from "../shared/button/Button";
+import Paragraph from "../shared/paragraph/Paragraph";
 
 
 const Hero = ({ darkMode }) => {

@@ -57,6 +57,5 @@ img {
 @import "./cta";
 @import "./footer";
 @import "./newsletter";
-// REUSABLE COMPONENTS
-@import "./btnlink_component";
-@import "./paragraph";
+@import '../components/shared/button/btnlink_component';
+@import '../components/shared/paragraph/paragraph';
