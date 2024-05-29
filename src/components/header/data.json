@@ -1,0 +1,32 @@
+[
+    {
+        "name": "What we do",
+        "href": "",
+        "hideOnDesktop": false
+    },
+    {
+        "name": "Work",
+        "href": "",
+        "hideOnDesktop": true
+    },
+    {
+        "name": "Who we are",
+        "href": "",
+        "hideOnDesktop": false
+    },
+    {
+        "name": "Being here",
+        "href": "",
+        "hideOnDesktop": false
+    },
+    {
+        "name": "Careers",
+        "href": "",
+        "hideOnDesktop": false
+    },
+    {
+        "name": "Contact",
+        "href": "",
+        "hideOnDesktop": true
+    }
+]

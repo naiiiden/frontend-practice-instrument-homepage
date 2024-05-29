@@ -5,6 +5,7 @@ import { ReactComponent as Close } from "../../images/close.svg";
 import Dark from "../../images/dark.svg";
 import Light from "../../images/light.svg";
 
+import data from "./data.json";
 
 const Header = ({ darkMode, toggleDarkMode }) => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -31,12 +32,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             </button>
             <nav aria-label="Header">
                 <ul className={`${openMenu ? "show" : null} uppercase`}>
-                    <li><a href="https://www.instrument.com/what-we-do">What we do</a></li>
-                    <li className="mobile--only"><a href="https://www.instrument.com/work">Work</a></li>
-                    <li><a href="https://www.instrument.com/who-we-are">Who we are</a></li>
-                    <li><a href="https://www.instrument.com/being-here">Being here</a></li>
-                    <li><a href="https://www.instrument.com/careers">Careers</a></li>
-                    <li className="mobile--only"><a href="https://www.instrument.com/contact">Contact</a></li>
+                    {data.map(((item, i) => <li className={item.hideOnDesktop ? 'mobile--only' : ''} key={i}><a href={item.href}>{item.name}</a></li>))}
                 </ul>
             </nav>
         </header>
