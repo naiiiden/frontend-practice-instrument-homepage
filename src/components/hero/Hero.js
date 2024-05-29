@@ -23,7 +23,10 @@ const Hero = ({ darkMode }) => {
                 "word": "Serve.",
                 "img": Serve
             }
-        ]
+        ],
+        "paragraphText": "We are investing $3 million over the next three years in our Build|Grow|Serve program, created to support and empower Black and underrepresented communities.",
+        "linkText": "Learn more",
+        "videoSrc": "https://player.vimeo.com/video/428281636?h=be0963aaa9?autoplay=1&muted=1"
     }
 
     return (
@@ -36,10 +39,10 @@ const Hero = ({ darkMode }) => {
                     </span>
                 ))}
             </h1>
-            <Paragraph text="We are investing $3 million over the next three years in our Build|Grow|Serve program, created to support and empower Black and underrepresented communities."/>
-            <BtnLink href="#" text="Learn more" className={`${darkMode ? "" : "btn--light"}`}/>
+            <Paragraph text={data.paragraphText}/>
+            <BtnLink href="#" text={data.linkText} className={`${darkMode ? "" : "btn--light"}`}/>
             <div className="video--player wow animate__animated animate__fadeIn" data-wow-offset="400">
-                <iframe src="https://player.vimeo.com/video/428281636?h=be0963aaa9?autoplay=1&muted=1" allow="autoplay; fullscreen;" title="Instrument's 2021 Showcase Reel"></iframe>
+                <iframe src={data.videoSrc} allow="autoplay; fullscreen;" title="Instrument's 2021 Showcase Reel"></iframe>
             </div>
         </div>
     )
