@@ -1,0 +1,60 @@
+{
+    "linksRow1": [
+        {
+            "name": "Home",
+            "href": "#top"
+        },
+        {
+            "name": "What we do",
+            "href": ""
+        },
+        {
+            "name": "Work",
+            "href": ""
+        },
+        {
+            "name": "Who we are",
+            "href": ""
+        },
+        {
+            "name": "Articles",
+            "href": ""
+        }
+    ],
+    "linksRow2": [
+        {
+            "name": "Being here",
+            "href": ""
+        },
+        {
+            "name": "Careers",
+            "href": ""
+        },
+        {
+            "name": "Contact",
+            "href": ""
+        },
+        {
+            "name": "Privacy",
+            "href": ""
+        }
+    ],
+    "newsletterText": "Newsletter",
+    "linksSocials": [
+        {
+            "name": "Instagram",
+            "href": "",
+            "img": ""
+        },
+        {
+            "name": "Twitter",
+            "href": "",
+            "img": ""
+        },
+        {
+            "name": "LinkedIn",
+            "href": "",
+            "img": ""
+        }
+    ]
+}
