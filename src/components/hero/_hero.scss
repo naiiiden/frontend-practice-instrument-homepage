@@ -25,29 +25,29 @@
                 position: absolute;
                 user-select: none;
                 pointer-events: none;
+            }
 
-                &.build--svg {
-                    bottom: 1rem;
-                    bottom: 0;
-                    left: 0;
-                    display: block;
-                    transform: translate3d(-5%,-80%,15%);
-                }
+            &:nth-child(1) img {
+                bottom: 1rem;
+                bottom: 0;
+                left: 0;
+                display: block;
+                transform: translate3d(-5%,-80%,15%);
+            }
 
-                &.grow--svg {
-                    bottom: 0;
-                    left: 0;
-                    display: block;
-                    transform: translate3d(-8%,25%,0);
-                }
+            &:nth-child(2) img {
+                bottom: 0;
+                left: 0;
+                display: block;
+                transform: translate3d(-8%,25%,0);
+            }
 
-                &.serve--svg {
-                    bottom: 1rem;
-                    bottom: 0;
-                    left: 0;
-                    display: block;
-                    transform: translate3d(-5%,-35%,15%);
-                }
+            &:nth-child(3) img {
+                bottom: 1rem;
+                bottom: 0;
+                left: 0;
+                display: block;
+                transform: translate3d(-5%,-35%,15%);
             }
         }
     }

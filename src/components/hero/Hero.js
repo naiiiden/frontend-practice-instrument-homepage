@@ -6,25 +6,35 @@ import WOW from "wow.js";
 import BtnLink from "../shared/button/Button";
 import Paragraph from "../shared/paragraph/Paragraph";
 
-
 const Hero = ({ darkMode }) => {
     new WOW().init();
+
+    const data = {
+        "heading": [
+            {
+                "word": "Build.",
+                "img": Build
+            },
+            {
+                "word": "Grow.",
+                "img": Grow
+            },
+            {
+                "word": "Serve.",
+                "img": Serve
+            }
+        ]
+    }
 
     return (
         <div className={`main ${darkMode ? "" : "hero--light"} wow animate__animated animate__fadeIn`}>
             <h1>
-                <span>
-                    Build.
-                    <img src={Build} alt="" className="build--svg"/>
-                </span>
-                <span>
-                    Grow.
-                    <img src={Grow} alt="" className="grow--svg"/>
-                </span>
-                <span>
-                    Serve.
-                    <img src={Serve} alt="" className="serve--svg"/>
-                </span>
+                {data.heading.map((item, i) => (
+                    <span key={i}>
+                        {item.word}
+                        <img src={item.img} alt=""/>
+                    </span>
+                ))}
             </h1>
             <Paragraph text="We are investing $3 million over the next three years in our Build|Grow|Serve program, created to support and empower Black and underrepresented communities."/>
             <BtnLink href="#" text="Learn more" className={`${darkMode ? "" : "btn--light"}`}/>
