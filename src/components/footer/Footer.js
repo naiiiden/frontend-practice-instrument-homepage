@@ -1,11 +1,29 @@
 import { ReactComponent as ArrowFooter } from "../../images/arrow__footer.svg";
-import { ReactComponent as Instagram } from "../../images/instagram.svg";
-import { ReactComponent as Twitter } from "../../images/twitter.svg";
-import { ReactComponent as Linkedin } from "../../images/linkedin.svg";
+import Instagram from "../../images/instagram.svg";
+import Twitter from "../../images/twitter.svg";
+import Linkedin from "../../images/linkedin.svg";
 
 import data from "./data.json";
 
 const Footer = ({ darkMode, onClick }) => {
+    const linksSocials = [
+        {
+            "name": "Instagram",
+            "href": "",
+            "img": Instagram
+        },
+        {
+            "name": "Twitter",
+            "href": "",
+            "img": Twitter
+        },
+        {
+            "name": "LinkedIn",
+            "href": "",
+            "img": Linkedin
+        }
+    ]    
+    
     return (
         <footer className={`${darkMode ? "" : "footer--light"}`}>
             <nav aria-label="Footer" className="footer--nav">
@@ -17,11 +35,9 @@ const Footer = ({ darkMode, onClick }) => {
                 </ul>
             </nav>
             <div className="newsletter--socials--container">
-                <button onClick={onClick} className="uppercase">Newsletter <ArrowFooter className="arrow"/></button>
+                <button onClick={onClick} className="uppercase">{data.newsletterText} <ArrowFooter className="arrow"/></button>
                 <ul className="socials--container">
-                    <li><a href="https://instagram.com/instrument" aria-label="Instagram"><Instagram className="social--icon"/></a></li>
-                    <li><a href="https://twitter.com/instrument" aria-label="Twitter"><Twitter className="social--icon"/></a></li>
-                    <li><a href="https://linkedin.com/company/instrument" aria-label="LinkedIn"><Linkedin className="social--icon"/></a></li>
+                    {linksSocials.map((item, i) => <li key={i}><a href={item.href}><img style={{ "filter": darkMode ? "invert(1)" : "" }} src={item.img} alt={item.name}/></a></li>)}
                 </ul>
             </div>
         </footer>

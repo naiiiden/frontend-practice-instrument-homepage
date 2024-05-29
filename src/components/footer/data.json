@@ -39,22 +39,5 @@
             "href": ""
         }
     ],
-    "newsletterText": "Newsletter",
-    "linksSocials": [
-        {
-            "name": "Instagram",
-            "href": "",
-            "img": ""
-        },
-        {
-            "name": "Twitter",
-            "href": "",
-            "img": ""
-        },
-        {
-            "name": "LinkedIn",
-            "href": "",
-            "img": ""
-        }
-    ]
+    "newsletterText": "Newsletter"
 }
